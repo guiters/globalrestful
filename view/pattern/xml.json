@@ -1,10 +1,10 @@
 {
   "drive": "DriveMysql",
-  "database": "imovelsearch",
-  "table": "empresa",
+  "database": "MyCompany",
+  "table": "Employers",
   "columns": [
     "id",
-    "xml"
+    "document"
   ],
   "limitpage": "100",
   "where": {
@@ -12,7 +12,7 @@
       "id": "/^[0-9]*$/"
     },
     "optional": {
-      "xml": "/^[0-9]*$/"
+      "document": "/^[0-9]*$/"
     }
   },
   "requires": {
