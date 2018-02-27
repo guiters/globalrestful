@@ -1,0 +1,40 @@
+{
+  "drive": "DriveMysql",
+  "database": "default",
+  "table": "user",
+  "columns": [
+    "id",
+    "user",
+    "pass",
+    "status"
+  ],
+  "limitpage": "1",
+  "where": {
+    "require": {
+      "user": "/^[a-zA-Z0-9_.-]*$/",
+      "pass": "/^[a-zA-Z0-9_.-]*$/",
+      "status": "/^[0-9]*$/"
+    },
+    "optional": {
+      "id": "/^[0-9]*$/"
+    }
+  },
+  "requires": {
+    "REQUEST": {
+      "POST": "GET"
+    }
+  },
+  "customResponse": {
+    "REQUEST": {
+      "GET": {
+        "Found": {
+          "status": true,
+          "token": "{tokenSession}"
+        },
+        "NotFound": {
+          "status": false
+        }
+      }
+    }
+  }
+}

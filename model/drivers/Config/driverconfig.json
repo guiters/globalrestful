@@ -1,0 +1,14 @@
+{
+  "get": [
+    "result"
+  ],
+  "post": [
+    "result"
+  ],
+  "put": [
+    "result"
+  ],
+  "delete": [
+    "result"
+  ]
+}

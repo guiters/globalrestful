@@ -1,0 +1,30 @@
+{
+  "drive": "DriveMysql",
+  "database": "default",
+  "table": "user",
+  "columns": [
+    "id",
+    "user",
+    "pass",
+    "status"
+  ],
+  "limitpage": "1",
+  "where": {
+    "require":{
+      "id": "/^[0-9]*$/"
+    },
+    "optional": {
+      "id": "/^[0-9]*$/",
+      "user": "^[a-zA-Z0-9_.-]*$",
+      "password": "^[a-zA-Z0-9_.-]*$",
+      "status": "/^[0-9]*$/"
+    }
+  },
+  "requires": {
+    "REQUEST": [
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  }
+}

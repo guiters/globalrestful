@@ -1,0 +1,26 @@
+{
+  "drive": "DriveMysql",
+  "database": "imovelsearch",
+  "table": "empresa",
+  "columns": [
+    "id",
+    "xml"
+  ],
+  "limitpage": "100",
+  "where": {
+    "require": {
+      "id": "/^[0-9]*$/"
+    },
+    "optional": {
+      "xml": "/^[0-9]*$/"
+    }
+  },
+  "requires": {
+    "REQUEST": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  }
+}

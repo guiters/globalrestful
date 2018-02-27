@@ -1,0 +1,14 @@
+{
+  "drive": "Config",
+  "result": {
+    "drivers" : "{GetDrivers}"
+  },
+  "requires": {
+    "REQUEST": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+    ]
+  }
+}
