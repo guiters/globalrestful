@@ -20,8 +20,10 @@ class pattern
         $this->route = $route;
         $this->path = $path;
         $this->patternfile = $this->getPattern();
+
         if ($this->patternfile) {
             $this->patternfile = file_get_contents($this->patternfile);
+
             if (is_json($this->patternfile)) {
                 $this->pattern = json_decode($this->patternfile, true);
                 $this->pageControl();
@@ -61,32 +63,45 @@ class pattern
 
     private function arrayToWhere()
     {
-        if(isset($this->pattern['where'])) {
+
+        if (isset($this->pattern['where'])) {
             $this->pattern['whereString'] = '';
             foreach ($this->whereType as $where) {
-                foreach ($this->pattern['where'][$where] as $key => $value) {
-                    $this->pattern['whereString'] .= $key . '="' . $value . '" AND ';
+                if (isset($this->pattern['where'][$where])) {
+                    foreach ($this->pattern['where'][$where] as $key => $value) {
+                        if (isset($this->pattern['database'])) {
+                            $this->pattern['whereString'] .= $key . '="' . $value . '" AND ';
+                        } else {
+                            $this->pattern['whereString'][$key] = $value;
+                        }
+                    }
                 }
             }
-            $this->pattern['whereString'] = substr($this->pattern['whereString'], 0, -5);
-            unset($this->pattern['where']);
+            if (!is_array($this->pattern['whereString'])) {
+                $this->pattern['whereString'] = substr($this->pattern['whereString'], 0, -5);
+            }
         }
     }
 
-    private function whereValidate()
+
+    private
+    function whereValidate()
     {
-        if(isset($this->pattern['where'])) {
+        if (isset($this->pattern['where'])) {
             foreach ($this->whereType as $where) {
-                foreach ($this->pattern['where'][$where] as $key => $value) {
-                    if (isRegex($this->pattern['where'][$where][$key])) {
-                        unset($this->pattern['where'][$where][$key]);
+                if (isset($this->pattern['where'][$where])) {
+                    foreach ($this->pattern['where'][$where] as $key => $value) {
+                        if (isRegex($this->pattern['where'][$where][$key])) {
+                            unset($this->pattern['where'][$where][$key]);
+                        }
                     }
                 }
             }
         }
     }
 
-    private function matchGET()
+    private
+    function matchGET()
     {
         $get = $_GET;
         if (isset($this->pattern['REQUEST_DATA'])) {
@@ -106,7 +121,8 @@ class pattern
         }
     }
 
-    private function matchPOST()
+    private
+    function matchPOST()
     {
         foreach ($_POST as $key => $value) {
             foreach ($this->columns as $column) {
@@ -119,7 +135,8 @@ class pattern
         }
     }
 
-    private function isWebFormKit($form)
+    private
+    function isWebFormKit($form)
     {
         foreach ($form as $key => $item) {
             if (strpos($key, 'form-data') !== false) {
@@ -130,11 +147,13 @@ class pattern
         return false;
     }
 
-    private function matchDELETE()
+    private
+    function matchDELETE()
     {
     }
 
-    private function matchPUT()
+    private
+    function matchPUT()
     {
         $this->pattern['data'] = null;
         $putData = file_get_contents("php://input");
@@ -145,7 +164,8 @@ class pattern
         }
     }
 
-    private function webkitform($putData)
+    private
+    function webkitform($putData)
     {
         $putData = str_replace('_', ' ', $putData);
         $putData = explode(' ', $putData);
@@ -174,14 +194,16 @@ class pattern
     }
 
 
-    private function pageControl()
+    private
+    function pageControl()
     {
         if (isset($_GET['pg'])) {
             $this->pattern['limitpage'] = (($this->pattern['limitpage'] * $_GET['pg'])) . ', ' . $this->pattern['limitpage'];
         }
     }
 
-    public function getMethod()
+    public
+    function getMethod()
     {
 
         $this->pattern['REQUEST'] = "GET";
@@ -199,8 +221,10 @@ class pattern
         eval('$this->match' . $this->pattern['REQUEST'] . '();');
     }
 
-    public function getPattern()
+    public
+    function getPattern()
     {
+
         foreach ($this->route as $page) {
             if (is_file($this->path . '/' . $page . '.json')) {
                 return $this->path . '/' . $page . '.json';

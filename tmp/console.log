@@ -714,3 +714,6620 @@ Total Execution Time:1 milliseconds
     ]
 }
 -----------------------
+"showdatabases"
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+true
+-----------------------
+true
+-----------------------
+true
+-----------------------
+true
+-----------------------
+true
+-----------------------
+true
+-----------------------
+true
+-----------------------
+{
+    "current_field": null,
+    "field_count": null,
+    "lengths": null,
+    "num_rows": null,
+    "type": null
+}
+-----------------------
+{
+    "current_field": null,
+    "field_count": null,
+    "lengths": null,
+    "num_rows": null,
+    "type": null
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "current_field": null,
+    "field_count": null,
+    "lengths": null,
+    "num_rows": null,
+    "type": null
+}
+-----------------------
+{
+    "current_field": null,
+    "field_count": null,
+    "lengths": null,
+    "num_rows": null,
+    "type": null
+}
+-----------------------
+{
+    "current_field": null,
+    "field_count": null,
+    "lengths": null,
+    "num_rows": null,
+    "type": null
+}
+-----------------------
+{
+    "current_field": null,
+    "field_count": null,
+    "lengths": null,
+    "num_rows": null,
+    "type": null
+}
+-----------------------
+{
+    "current_field": null,
+    "field_count": null,
+    "lengths": null,
+    "num_rows": null,
+    "type": null
+}
+-----------------------
+[
+    "empresa",
+    "users"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "empresa",
+    "users"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "user"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "empresa",
+    "users"
+]
+-----------------------
+[
+    "whatsapp",
+    "whatsapp_copy1"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "user"
+]
+-----------------------
+[
+    "columns_priv",
+    "db",
+    "engine_cost",
+    "event",
+    "func",
+    "general_log",
+    "gtid_executed",
+    "help_category",
+    "help_keyword",
+    "help_relation",
+    "help_topic",
+    "innodb_index_stats",
+    "innodb_table_stats",
+    "ndb_binlog_index",
+    "plugin",
+    "proc",
+    "procs_priv",
+    "proxies_priv",
+    "server_cost",
+    "servers",
+    "slave_master_info",
+    "slave_relay_log_info",
+    "slave_worker_info",
+    "slow_log",
+    "tables_priv",
+    "time_zone",
+    "time_zone_leap_second",
+    "time_zone_name",
+    "time_zone_transition",
+    "time_zone_transition_type",
+    "user"
+]
+-----------------------
+[
+    "user"
+]
+-----------------------
+[
+    "whatsapp",
+    "whatsapp_copy1"
+]
+-----------------------
+[
+    "whatsapp"
+]
+-----------------------
+[
+    "user"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "columns_priv",
+    "db",
+    "engine_cost",
+    "event",
+    "func",
+    "general_log",
+    "gtid_executed",
+    "help_category",
+    "help_keyword",
+    "help_relation",
+    "help_topic",
+    "innodb_index_stats",
+    "innodb_table_stats",
+    "ndb_binlog_index",
+    "plugin",
+    "proc",
+    "procs_priv",
+    "proxies_priv",
+    "server_cost",
+    "servers",
+    "slave_master_info",
+    "slave_relay_log_info",
+    "slave_worker_info",
+    "slow_log",
+    "tables_priv",
+    "time_zone",
+    "time_zone_leap_second",
+    "time_zone_name",
+    "time_zone_transition",
+    "time_zone_transition_type",
+    "user"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    "whatsapp",
+    "whatsapp_copy1"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "accounts",
+    "cond_instances",
+    "events_stages_current",
+    "events_stages_history",
+    "events_stages_history_long",
+    "events_stages_summary_by_account_by_event_name",
+    "events_stages_summary_by_host_by_event_name",
+    "events_stages_summary_by_thread_by_event_name",
+    "events_stages_summary_by_user_by_event_name",
+    "events_stages_summary_global_by_event_name",
+    "events_statements_current",
+    "events_statements_history",
+    "events_statements_history_long",
+    "events_statements_summary_by_account_by_event_name",
+    "events_statements_summary_by_digest",
+    "events_statements_summary_by_host_by_event_name",
+    "events_statements_summary_by_program",
+    "events_statements_summary_by_thread_by_event_name",
+    "events_statements_summary_by_user_by_event_name",
+    "events_statements_summary_global_by_event_name",
+    "events_transactions_current",
+    "events_transactions_history",
+    "events_transactions_history_long",
+    "events_transactions_summary_by_account_by_event_name",
+    "events_transactions_summary_by_host_by_event_name",
+    "events_transactions_summary_by_thread_by_event_name",
+    "events_transactions_summary_by_user_by_event_name",
+    "events_transactions_summary_global_by_event_name",
+    "events_waits_current",
+    "events_waits_history",
+    "events_waits_history_long",
+    "events_waits_summary_by_account_by_event_name",
+    "events_waits_summary_by_host_by_event_name",
+    "events_waits_summary_by_instance",
+    "events_waits_summary_by_thread_by_event_name",
+    "events_waits_summary_by_user_by_event_name",
+    "events_waits_summary_global_by_event_name",
+    "file_instances",
+    "file_summary_by_event_name",
+    "file_summary_by_instance",
+    "global_status",
+    "global_variables",
+    "host_cache",
+    "hosts",
+    "memory_summary_by_account_by_event_name",
+    "memory_summary_by_host_by_event_name",
+    "memory_summary_by_thread_by_event_name",
+    "memory_summary_by_user_by_event_name",
+    "memory_summary_global_by_event_name",
+    "metadata_locks",
+    "mutex_instances",
+    "objects_summary_global_by_type",
+    "performance_timers",
+    "prepared_statements_instances",
+    "replication_applier_configuration",
+    "replication_applier_status",
+    "replication_applier_status_by_coordinator",
+    "replication_applier_status_by_worker",
+    "replication_connection_configuration",
+    "replication_connection_status",
+    "replication_group_member_stats",
+    "replication_group_members",
+    "rwlock_instances",
+    "session_account_connect_attrs",
+    "session_connect_attrs",
+    "session_status",
+    "session_variables",
+    "setup_actors",
+    "setup_consumers",
+    "setup_instruments",
+    "setup_objects",
+    "setup_timers",
+    "socket_instances",
+    "socket_summary_by_event_name",
+    "socket_summary_by_instance",
+    "status_by_account",
+    "status_by_host",
+    "status_by_thread",
+    "status_by_user",
+    "table_handles",
+    "table_io_waits_summary_by_index_usage",
+    "table_io_waits_summary_by_table",
+    "table_lock_waits_summary_by_table",
+    "threads",
+    "user_variables_by_thread",
+    "users",
+    "variables_by_thread"
+]
+-----------------------
+[
+    "accounts",
+    "cond_instances",
+    "events_stages_current",
+    "events_stages_history",
+    "events_stages_history_long",
+    "events_stages_summary_by_account_by_event_name",
+    "events_stages_summary_by_host_by_event_name",
+    "events_stages_summary_by_thread_by_event_name",
+    "events_stages_summary_by_user_by_event_name",
+    "events_stages_summary_global_by_event_name",
+    "events_statements_current",
+    "events_statements_history",
+    "events_statements_history_long",
+    "events_statements_summary_by_account_by_event_name",
+    "events_statements_summary_by_digest",
+    "events_statements_summary_by_host_by_event_name",
+    "events_statements_summary_by_program",
+    "events_statements_summary_by_thread_by_event_name",
+    "events_statements_summary_by_user_by_event_name",
+    "events_statements_summary_global_by_event_name",
+    "events_transactions_current",
+    "events_transactions_history",
+    "events_transactions_history_long",
+    "events_transactions_summary_by_account_by_event_name",
+    "events_transactions_summary_by_host_by_event_name",
+    "events_transactions_summary_by_thread_by_event_name",
+    "events_transactions_summary_by_user_by_event_name",
+    "events_transactions_summary_global_by_event_name",
+    "events_waits_current",
+    "events_waits_history",
+    "events_waits_history_long",
+    "events_waits_summary_by_account_by_event_name",
+    "events_waits_summary_by_host_by_event_name",
+    "events_waits_summary_by_instance",
+    "events_waits_summary_by_thread_by_event_name",
+    "events_waits_summary_by_user_by_event_name",
+    "events_waits_summary_global_by_event_name",
+    "file_instances",
+    "file_summary_by_event_name",
+    "file_summary_by_instance",
+    "global_status",
+    "global_variables",
+    "host_cache",
+    "hosts",
+    "memory_summary_by_account_by_event_name",
+    "memory_summary_by_host_by_event_name",
+    "memory_summary_by_thread_by_event_name",
+    "memory_summary_by_user_by_event_name",
+    "memory_summary_global_by_event_name",
+    "metadata_locks",
+    "mutex_instances",
+    "objects_summary_global_by_type",
+    "performance_timers",
+    "prepared_statements_instances",
+    "replication_applier_configuration",
+    "replication_applier_status",
+    "replication_applier_status_by_coordinator",
+    "replication_applier_status_by_worker",
+    "replication_connection_configuration",
+    "replication_connection_status",
+    "replication_group_member_stats",
+    "replication_group_members",
+    "rwlock_instances",
+    "session_account_connect_attrs",
+    "session_connect_attrs",
+    "session_status",
+    "session_variables",
+    "setup_actors",
+    "setup_consumers",
+    "setup_instruments",
+    "setup_objects",
+    "setup_timers",
+    "socket_instances",
+    "socket_summary_by_event_name",
+    "socket_summary_by_instance",
+    "status_by_account",
+    "status_by_host",
+    "status_by_thread",
+    "status_by_user",
+    "table_handles",
+    "table_io_waits_summary_by_index_usage",
+    "table_io_waits_summary_by_table",
+    "table_lock_waits_summary_by_table",
+    "threads",
+    "user_variables_by_thread",
+    "users",
+    "variables_by_thread"
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    "user"
+]
+-----------------------
+[
+    "user"
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "empresa",
+    "users"
+]
+-----------------------
+[
+    "accounts",
+    "cond_instances",
+    "events_stages_current",
+    "events_stages_history",
+    "events_stages_history_long",
+    "events_stages_summary_by_account_by_event_name",
+    "events_stages_summary_by_host_by_event_name",
+    "events_stages_summary_by_thread_by_event_name",
+    "events_stages_summary_by_user_by_event_name",
+    "events_stages_summary_global_by_event_name",
+    "events_statements_current",
+    "events_statements_history",
+    "events_statements_history_long",
+    "events_statements_summary_by_account_by_event_name",
+    "events_statements_summary_by_digest",
+    "events_statements_summary_by_host_by_event_name",
+    "events_statements_summary_by_program",
+    "events_statements_summary_by_thread_by_event_name",
+    "events_statements_summary_by_user_by_event_name",
+    "events_statements_summary_global_by_event_name",
+    "events_transactions_current",
+    "events_transactions_history",
+    "events_transactions_history_long",
+    "events_transactions_summary_by_account_by_event_name",
+    "events_transactions_summary_by_host_by_event_name",
+    "events_transactions_summary_by_thread_by_event_name",
+    "events_transactions_summary_by_user_by_event_name",
+    "events_transactions_summary_global_by_event_name",
+    "events_waits_current",
+    "events_waits_history",
+    "events_waits_history_long",
+    "events_waits_summary_by_account_by_event_name",
+    "events_waits_summary_by_host_by_event_name",
+    "events_waits_summary_by_instance",
+    "events_waits_summary_by_thread_by_event_name",
+    "events_waits_summary_by_user_by_event_name",
+    "events_waits_summary_global_by_event_name",
+    "file_instances",
+    "file_summary_by_event_name",
+    "file_summary_by_instance",
+    "global_status",
+    "global_variables",
+    "host_cache",
+    "hosts",
+    "memory_summary_by_account_by_event_name",
+    "memory_summary_by_host_by_event_name",
+    "memory_summary_by_thread_by_event_name",
+    "memory_summary_by_user_by_event_name",
+    "memory_summary_global_by_event_name",
+    "metadata_locks",
+    "mutex_instances",
+    "objects_summary_global_by_type",
+    "performance_timers",
+    "prepared_statements_instances",
+    "replication_applier_configuration",
+    "replication_applier_status",
+    "replication_applier_status_by_coordinator",
+    "replication_applier_status_by_worker",
+    "replication_connection_configuration",
+    "replication_connection_status",
+    "replication_group_member_stats",
+    "replication_group_members",
+    "rwlock_instances",
+    "session_account_connect_attrs",
+    "session_connect_attrs",
+    "session_status",
+    "session_variables",
+    "setup_actors",
+    "setup_consumers",
+    "setup_instruments",
+    "setup_objects",
+    "setup_timers",
+    "socket_instances",
+    "socket_summary_by_event_name",
+    "socket_summary_by_instance",
+    "status_by_account",
+    "status_by_host",
+    "status_by_thread",
+    "status_by_user",
+    "table_handles",
+    "table_io_waits_summary_by_index_usage",
+    "table_io_waits_summary_by_table",
+    "table_lock_waits_summary_by_table",
+    "threads",
+    "user_variables_by_thread",
+    "users",
+    "variables_by_thread"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "TB_RUAS",
+    "WILL_EMPRESAS",
+    "alias_bairro",
+    "anunciante",
+    "arquivo_com_formato_aser_definido",
+    "bairros_unidades",
+    "baixa_follow",
+    "bash_xml_process",
+    "caracteristicas",
+    "categorias",
+    "cidades_unidades",
+    "cliente",
+    "cliente_contatos",
+    "cliente_dispositivo",
+    "cliente_empresa",
+    "cliente_filtro",
+    "cliente_score",
+    "cliente_telefone",
+    "cliente_unidade",
+    "cliente_usuario",
+    "clientes",
+    "conf_banner",
+    "conf_empresa",
+    "conf_site",
+    "conteudosite",
+    "converte_para_sql_follow",
+    "converte_para_vrsync_follow",
+    "crm_clientes",
+    "crms",
+    "definir_formato_xml_follow",
+    "email_leads",
+    "emails_leeds",
+    "empresa",
+    "empresa_arquivo",
+    "empresa_modulo",
+    "empresa_telefone",
+    "empresa_xml_NULL",
+    "empresas",
+    "empresas_baixa22",
+    "empresas_novas",
+    "empresas_status11",
+    "empresas_status18",
+    "empresas_status21",
+    "empresas_status22",
+    "empresas_status24",
+    "empresas_status25",
+    "empresas_status26",
+    "empresas_status72",
+    "enderecos",
+    "erro_xml_result_conv_to_vrsync_invalido",
+    "erro_xml_resultante_baixa_invalido",
+    "erro_xml_sql_resultante_invalido",
+    "filtro_bairro",
+    "filtro_cidade",
+    "filtro_endereco",
+    "filtro_estado",
+    "filtro_itens",
+    "filtro_operacao",
+    "filtro_subtipo",
+    "filtro_tipo",
+    "filtro_unidades",
+    "filtro_universo",
+    "financeiro_acesso",
+    "formato_xml",
+    "fotos",
+    "fotos_20170104",
+    "fotos_unidade_13727",
+    "funcionalidade",
+    "grupo_unidades",
+    "imoveisacessados",
+    "imoveisfavoritos",
+    "insere_xml_sql_no_db_follow",
+    "lancamentos",
+    "leads",
+    "mailing_para_portais",
+    "media",
+    "menu",
+    "menu_modulo",
+    "menu_usuario",
+    "modulo",
+    "obrigatoriedades",
+    "opcoes",
+    "pesquisas",
+    "plano_funcionalidade",
+    "planos",
+    "planos_categorias",
+    "planos_contratos",
+    "planos_contratos_recebiveis",
+    "planos_limites",
+    "plataforma",
+    "process_group_unidades_xml",
+    "process_unidades_fotos",
+    "process_unidades_xml",
+    "process_unidades_xml_log",
+    "process_unidades_xml_log_new",
+    "product_key_crm",
+    "product_key_crm_new",
+    "rede_secovi_gaia_imovel",
+    "regras_relevancia",
+    "seo_pag_conf",
+    "seo_pag_conf_20170116",
+    "stats_status_proc_xml",
+    "stats_xml_process_status",
+    "status_url_xml_process",
+    "taxonomia",
+    "tb_bairros",
+    "tb_cidade",
+    "tb_estados",
+    "termos_tipos",
+    "tipo_de_imovel",
+    "tipo_subtipo",
+    "unidades",
+    "unidades_new",
+    "unidades_new_20170313",
+    "unidades_search",
+    "unidades_visualizacao",
+    "url_xml_invalida_nula",
+    "usuario",
+    "usuario_contato",
+    "usuario_followup",
+    "v_emails_leeds",
+    "vindi",
+    "wp_commentmeta",
+    "wp_comments",
+    "wp_links",
+    "wp_media_file_manager_log",
+    "wp_options",
+    "wp_postmeta",
+    "wp_posts",
+    "wp_term_relationships",
+    "wp_term_taxonomy",
+    "wp_termmeta",
+    "wp_terms",
+    "wp_usermeta",
+    "wp_users",
+    "xml_log_per_type",
+    "xml_log_per_type_city",
+    "xml_log_per_type_description",
+    "xml_log_per_type_living_area",
+    "xml_log_per_type_lot_area",
+    "xml_log_per_type_property_type",
+    "xml_log_per_type_state",
+    "z_parametrosis"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "TB_RUAS",
+    "WILL_EMPRESAS",
+    "alias_bairro",
+    "anunciante",
+    "arquivo_com_formato_aser_definido",
+    "bairros_unidades",
+    "baixa_follow",
+    "bash_xml_process",
+    "caracteristicas",
+    "categorias",
+    "cidades_unidades",
+    "cliente",
+    "cliente_contatos",
+    "cliente_dispositivo",
+    "cliente_empresa",
+    "cliente_filtro",
+    "cliente_score",
+    "cliente_telefone",
+    "cliente_unidade",
+    "cliente_usuario",
+    "clientes",
+    "conf_banner",
+    "conf_empresa",
+    "conf_site",
+    "conteudosite",
+    "converte_para_sql_follow",
+    "converte_para_vrsync_follow",
+    "crm_clientes",
+    "crms",
+    "definir_formato_xml_follow",
+    "email_leads",
+    "emails_leeds",
+    "empresa",
+    "empresa_arquivo",
+    "empresa_modulo",
+    "empresa_telefone",
+    "empresa_xml_NULL",
+    "empresas",
+    "empresas_baixa22",
+    "empresas_novas",
+    "empresas_status11",
+    "empresas_status18",
+    "empresas_status21",
+    "empresas_status22",
+    "empresas_status24",
+    "empresas_status25",
+    "empresas_status26",
+    "empresas_status72",
+    "enderecos",
+    "erro_xml_result_conv_to_vrsync_invalido",
+    "erro_xml_resultante_baixa_invalido",
+    "erro_xml_sql_resultante_invalido",
+    "filtro_bairro",
+    "filtro_cidade",
+    "filtro_endereco",
+    "filtro_estado",
+    "filtro_itens",
+    "filtro_operacao",
+    "filtro_subtipo",
+    "filtro_tipo",
+    "filtro_unidades",
+    "filtro_universo",
+    "financeiro_acesso",
+    "formato_xml",
+    "fotos",
+    "fotos_20170104",
+    "fotos_unidade_13727",
+    "funcionalidade",
+    "grupo_unidades",
+    "imoveisacessados",
+    "imoveisfavoritos",
+    "insere_xml_sql_no_db_follow",
+    "lancamentos",
+    "leads",
+    "mailing_para_portais",
+    "media",
+    "menu",
+    "menu_modulo",
+    "menu_usuario",
+    "modulo",
+    "obrigatoriedades",
+    "opcoes",
+    "pesquisas",
+    "plano_funcionalidade",
+    "planos",
+    "planos_categorias",
+    "planos_contratos",
+    "planos_contratos_recebiveis",
+    "planos_limites",
+    "plataforma",
+    "process_group_unidades_xml",
+    "process_unidades_fotos",
+    "process_unidades_xml",
+    "process_unidades_xml_log",
+    "process_unidades_xml_log_new",
+    "product_key_crm",
+    "product_key_crm_new",
+    "rede_secovi_gaia_imovel",
+    "regras_relevancia",
+    "seo_pag_conf",
+    "seo_pag_conf_20170116",
+    "stats_status_proc_xml",
+    "stats_xml_process_status",
+    "status_url_xml_process",
+    "taxonomia",
+    "tb_bairros",
+    "tb_cidade",
+    "tb_estados",
+    "termos_tipos",
+    "tipo_de_imovel",
+    "tipo_subtipo",
+    "unidades",
+    "unidades_new",
+    "unidades_new_20170313",
+    "unidades_search",
+    "unidades_visualizacao",
+    "url_xml_invalida_nula",
+    "usuario",
+    "usuario_contato",
+    "usuario_followup",
+    "v_emails_leeds",
+    "vindi",
+    "wp_commentmeta",
+    "wp_comments",
+    "wp_links",
+    "wp_media_file_manager_log",
+    "wp_options",
+    "wp_postmeta",
+    "wp_posts",
+    "wp_term_relationships",
+    "wp_term_taxonomy",
+    "wp_termmeta",
+    "wp_terms",
+    "wp_usermeta",
+    "wp_users",
+    "xml_log_per_type",
+    "xml_log_per_type_city",
+    "xml_log_per_type_description",
+    "xml_log_per_type_living_area",
+    "xml_log_per_type_lot_area",
+    "xml_log_per_type_property_type",
+    "xml_log_per_type_state",
+    "z_parametrosis"
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "user"
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    "empresa",
+    "users"
+]
+-----------------------
+[
+    "TB_RUAS",
+    "WILL_EMPRESAS",
+    "alias_bairro",
+    "anunciante",
+    "arquivo_com_formato_aser_definido",
+    "bairros_unidades",
+    "baixa_follow",
+    "bash_xml_process",
+    "caracteristicas",
+    "categorias",
+    "cidades_unidades",
+    "cliente",
+    "cliente_contatos",
+    "cliente_dispositivo",
+    "cliente_empresa",
+    "cliente_filtro",
+    "cliente_score",
+    "cliente_telefone",
+    "cliente_unidade",
+    "cliente_usuario",
+    "clientes",
+    "conf_banner",
+    "conf_empresa",
+    "conf_site",
+    "conteudosite",
+    "converte_para_sql_follow",
+    "converte_para_vrsync_follow",
+    "crm_clientes",
+    "crms",
+    "definir_formato_xml_follow",
+    "email_leads",
+    "emails_leeds",
+    "empresa",
+    "empresa_arquivo",
+    "empresa_modulo",
+    "empresa_telefone",
+    "empresa_xml_NULL",
+    "empresas",
+    "empresas_baixa22",
+    "empresas_novas",
+    "empresas_status11",
+    "empresas_status18",
+    "empresas_status21",
+    "empresas_status22",
+    "empresas_status24",
+    "empresas_status25",
+    "empresas_status26",
+    "empresas_status72",
+    "enderecos",
+    "erro_xml_result_conv_to_vrsync_invalido",
+    "erro_xml_resultante_baixa_invalido",
+    "erro_xml_sql_resultante_invalido",
+    "filtro_bairro",
+    "filtro_cidade",
+    "filtro_endereco",
+    "filtro_estado",
+    "filtro_itens",
+    "filtro_operacao",
+    "filtro_subtipo",
+    "filtro_tipo",
+    "filtro_unidades",
+    "filtro_universo",
+    "financeiro_acesso",
+    "formato_xml",
+    "fotos",
+    "fotos_20170104",
+    "fotos_unidade_13727",
+    "funcionalidade",
+    "grupo_unidades",
+    "imoveisacessados",
+    "imoveisfavoritos",
+    "insere_xml_sql_no_db_follow",
+    "lancamentos",
+    "leads",
+    "mailing_para_portais",
+    "media",
+    "menu",
+    "menu_modulo",
+    "menu_usuario",
+    "modulo",
+    "obrigatoriedades",
+    "opcoes",
+    "pesquisas",
+    "plano_funcionalidade",
+    "planos",
+    "planos_categorias",
+    "planos_contratos",
+    "planos_contratos_recebiveis",
+    "planos_limites",
+    "plataforma",
+    "process_group_unidades_xml",
+    "process_unidades_fotos",
+    "process_unidades_xml",
+    "process_unidades_xml_log",
+    "process_unidades_xml_log_new",
+    "product_key_crm",
+    "product_key_crm_new",
+    "rede_secovi_gaia_imovel",
+    "regras_relevancia",
+    "seo_pag_conf",
+    "seo_pag_conf_20170116",
+    "stats_status_proc_xml",
+    "stats_xml_process_status",
+    "status_url_xml_process",
+    "taxonomia",
+    "tb_bairros",
+    "tb_cidade",
+    "tb_estados",
+    "termos_tipos",
+    "tipo_de_imovel",
+    "tipo_subtipo",
+    "unidades",
+    "unidades_new",
+    "unidades_new_20170313",
+    "unidades_search",
+    "unidades_visualizacao",
+    "url_xml_invalida_nula",
+    "usuario",
+    "usuario_contato",
+    "usuario_followup",
+    "v_emails_leeds",
+    "vindi",
+    "wp_commentmeta",
+    "wp_comments",
+    "wp_links",
+    "wp_media_file_manager_log",
+    "wp_options",
+    "wp_postmeta",
+    "wp_posts",
+    "wp_term_relationships",
+    "wp_term_taxonomy",
+    "wp_termmeta",
+    "wp_terms",
+    "wp_usermeta",
+    "wp_users",
+    "xml_log_per_type",
+    "xml_log_per_type_city",
+    "xml_log_per_type_description",
+    "xml_log_per_type_living_area",
+    "xml_log_per_type_lot_area",
+    "xml_log_per_type_property_type",
+    "xml_log_per_type_state",
+    "z_parametrosis"
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "TB_RUAS",
+    "WILL_EMPRESAS",
+    "alias_bairro",
+    "anunciante",
+    "arquivo_com_formato_aser_definido",
+    "bairros_unidades",
+    "baixa_follow",
+    "bash_xml_process",
+    "caracteristicas",
+    "categorias",
+    "cidades_unidades",
+    "cliente",
+    "cliente_contatos",
+    "cliente_dispositivo",
+    "cliente_empresa",
+    "cliente_filtro",
+    "cliente_score",
+    "cliente_telefone",
+    "cliente_unidade",
+    "cliente_usuario",
+    "clientes",
+    "conf_banner",
+    "conf_empresa",
+    "conf_site",
+    "conteudosite",
+    "converte_para_sql_follow",
+    "converte_para_vrsync_follow",
+    "crm_clientes",
+    "crms",
+    "definir_formato_xml_follow",
+    "email_leads",
+    "emails_leeds",
+    "empresa",
+    "empresa_arquivo",
+    "empresa_modulo",
+    "empresa_telefone",
+    "empresa_xml_NULL",
+    "empresas",
+    "empresas_baixa22",
+    "empresas_novas",
+    "empresas_status11",
+    "empresas_status18",
+    "empresas_status21",
+    "empresas_status22",
+    "empresas_status24",
+    "empresas_status25",
+    "empresas_status26",
+    "empresas_status72",
+    "enderecos",
+    "erro_xml_result_conv_to_vrsync_invalido",
+    "erro_xml_resultante_baixa_invalido",
+    "erro_xml_sql_resultante_invalido",
+    "filtro_bairro",
+    "filtro_cidade",
+    "filtro_endereco",
+    "filtro_estado",
+    "filtro_itens",
+    "filtro_operacao",
+    "filtro_subtipo",
+    "filtro_tipo",
+    "filtro_unidades",
+    "filtro_universo",
+    "financeiro_acesso",
+    "formato_xml",
+    "fotos",
+    "fotos_20170104",
+    "fotos_unidade_13727",
+    "funcionalidade",
+    "grupo_unidades",
+    "imoveisacessados",
+    "imoveisfavoritos",
+    "insere_xml_sql_no_db_follow",
+    "lancamentos",
+    "leads",
+    "mailing_para_portais",
+    "media",
+    "menu",
+    "menu_modulo",
+    "menu_usuario",
+    "modulo",
+    "obrigatoriedades",
+    "opcoes",
+    "pesquisas",
+    "plano_funcionalidade",
+    "planos",
+    "planos_categorias",
+    "planos_contratos",
+    "planos_contratos_recebiveis",
+    "planos_limites",
+    "plataforma",
+    "process_group_unidades_xml",
+    "process_unidades_fotos",
+    "process_unidades_xml",
+    "process_unidades_xml_log",
+    "process_unidades_xml_log_new",
+    "product_key_crm",
+    "product_key_crm_new",
+    "rede_secovi_gaia_imovel",
+    "regras_relevancia",
+    "seo_pag_conf",
+    "seo_pag_conf_20170116",
+    "stats_status_proc_xml",
+    "stats_xml_process_status",
+    "status_url_xml_process",
+    "taxonomia",
+    "tb_bairros",
+    "tb_cidade",
+    "tb_estados",
+    "termos_tipos",
+    "tipo_de_imovel",
+    "tipo_subtipo",
+    "unidades",
+    "unidades_new",
+    "unidades_new_20170313",
+    "unidades_search",
+    "unidades_visualizacao",
+    "url_xml_invalida_nula",
+    "usuario",
+    "usuario_contato",
+    "usuario_followup",
+    "v_emails_leeds",
+    "vindi",
+    "wp_commentmeta",
+    "wp_comments",
+    "wp_links",
+    "wp_media_file_manager_log",
+    "wp_options",
+    "wp_postmeta",
+    "wp_posts",
+    "wp_term_relationships",
+    "wp_term_taxonomy",
+    "wp_termmeta",
+    "wp_terms",
+    "wp_usermeta",
+    "wp_users",
+    "xml_log_per_type",
+    "xml_log_per_type_city",
+    "xml_log_per_type_description",
+    "xml_log_per_type_living_area",
+    "xml_log_per_type_lot_area",
+    "xml_log_per_type_property_type",
+    "xml_log_per_type_state",
+    "z_parametrosis"
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    "accounts",
+    "cond_instances",
+    "events_stages_current",
+    "events_stages_history",
+    "events_stages_history_long",
+    "events_stages_summary_by_account_by_event_name",
+    "events_stages_summary_by_host_by_event_name",
+    "events_stages_summary_by_thread_by_event_name",
+    "events_stages_summary_by_user_by_event_name",
+    "events_stages_summary_global_by_event_name",
+    "events_statements_current",
+    "events_statements_history",
+    "events_statements_history_long",
+    "events_statements_summary_by_account_by_event_name",
+    "events_statements_summary_by_digest",
+    "events_statements_summary_by_host_by_event_name",
+    "events_statements_summary_by_program",
+    "events_statements_summary_by_thread_by_event_name",
+    "events_statements_summary_by_user_by_event_name",
+    "events_statements_summary_global_by_event_name",
+    "events_transactions_current",
+    "events_transactions_history",
+    "events_transactions_history_long",
+    "events_transactions_summary_by_account_by_event_name",
+    "events_transactions_summary_by_host_by_event_name",
+    "events_transactions_summary_by_thread_by_event_name",
+    "events_transactions_summary_by_user_by_event_name",
+    "events_transactions_summary_global_by_event_name",
+    "events_waits_current",
+    "events_waits_history",
+    "events_waits_history_long",
+    "events_waits_summary_by_account_by_event_name",
+    "events_waits_summary_by_host_by_event_name",
+    "events_waits_summary_by_instance",
+    "events_waits_summary_by_thread_by_event_name",
+    "events_waits_summary_by_user_by_event_name",
+    "events_waits_summary_global_by_event_name",
+    "file_instances",
+    "file_summary_by_event_name",
+    "file_summary_by_instance",
+    "global_status",
+    "global_variables",
+    "host_cache",
+    "hosts",
+    "memory_summary_by_account_by_event_name",
+    "memory_summary_by_host_by_event_name",
+    "memory_summary_by_thread_by_event_name",
+    "memory_summary_by_user_by_event_name",
+    "memory_summary_global_by_event_name",
+    "metadata_locks",
+    "mutex_instances",
+    "objects_summary_global_by_type",
+    "performance_timers",
+    "prepared_statements_instances",
+    "replication_applier_configuration",
+    "replication_applier_status",
+    "replication_applier_status_by_coordinator",
+    "replication_applier_status_by_worker",
+    "replication_connection_configuration",
+    "replication_connection_status",
+    "replication_group_member_stats",
+    "replication_group_members",
+    "rwlock_instances",
+    "session_account_connect_attrs",
+    "session_connect_attrs",
+    "session_status",
+    "session_variables",
+    "setup_actors",
+    "setup_consumers",
+    "setup_instruments",
+    "setup_objects",
+    "setup_timers",
+    "socket_instances",
+    "socket_summary_by_event_name",
+    "socket_summary_by_instance",
+    "status_by_account",
+    "status_by_host",
+    "status_by_thread",
+    "status_by_user",
+    "table_handles",
+    "table_io_waits_summary_by_index_usage",
+    "table_io_waits_summary_by_table",
+    "table_lock_waits_summary_by_table",
+    "threads",
+    "user_variables_by_thread",
+    "users",
+    "variables_by_thread"
+]
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------
+[
+    "host_summary",
+    "host_summary_by_file_io",
+    "host_summary_by_file_io_type",
+    "host_summary_by_stages",
+    "host_summary_by_statement_latency",
+    "host_summary_by_statement_type",
+    "innodb_buffer_stats_by_schema",
+    "innodb_buffer_stats_by_table",
+    "innodb_lock_waits",
+    "io_by_thread_by_latency",
+    "io_global_by_file_by_bytes",
+    "io_global_by_file_by_latency",
+    "io_global_by_wait_by_bytes",
+    "io_global_by_wait_by_latency",
+    "latest_file_io",
+    "memory_by_host_by_current_bytes",
+    "memory_by_thread_by_current_bytes",
+    "memory_by_user_by_current_bytes",
+    "memory_global_by_current_bytes",
+    "memory_global_total",
+    "metrics",
+    "processlist",
+    "ps_check_lost_instrumentation",
+    "schema_auto_increment_columns",
+    "schema_index_statistics",
+    "schema_object_overview",
+    "schema_redundant_indexes",
+    "schema_table_lock_waits",
+    "schema_table_statistics",
+    "schema_table_statistics_with_buffer",
+    "schema_tables_with_full_table_scans",
+    "schema_unused_indexes",
+    "session",
+    "session_ssl_status",
+    "statement_analysis",
+    "statements_with_errors_or_warnings",
+    "statements_with_full_table_scans",
+    "statements_with_runtimes_in_95th_percentile",
+    "statements_with_sorting",
+    "statements_with_temp_tables",
+    "sys_config",
+    "user_summary",
+    "user_summary_by_file_io",
+    "user_summary_by_file_io_type",
+    "user_summary_by_stages",
+    "user_summary_by_statement_latency",
+    "user_summary_by_statement_type",
+    "version",
+    "wait_classes_global_by_avg_latency",
+    "wait_classes_global_by_latency",
+    "waits_by_host_by_latency",
+    "waits_by_user_by_latency",
+    "waits_global_by_latency",
+    "x$host_summary",
+    "x$host_summary_by_file_io",
+    "x$host_summary_by_file_io_type",
+    "x$host_summary_by_stages",
+    "x$host_summary_by_statement_latency",
+    "x$host_summary_by_statement_type",
+    "x$innodb_buffer_stats_by_schema",
+    "x$innodb_buffer_stats_by_table",
+    "x$innodb_lock_waits",
+    "x$io_by_thread_by_latency",
+    "x$io_global_by_file_by_bytes",
+    "x$io_global_by_file_by_latency",
+    "x$io_global_by_wait_by_bytes",
+    "x$io_global_by_wait_by_latency",
+    "x$latest_file_io",
+    "x$memory_by_host_by_current_bytes",
+    "x$memory_by_thread_by_current_bytes",
+    "x$memory_by_user_by_current_bytes",
+    "x$memory_global_by_current_bytes",
+    "x$memory_global_total",
+    "x$processlist",
+    "x$ps_digest_95th_percentile_by_avg_us",
+    "x$ps_digest_avg_latency_distribution",
+    "x$ps_schema_table_statistics_io",
+    "x$schema_flattened_keys",
+    "x$schema_index_statistics",
+    "x$schema_table_lock_waits",
+    "x$schema_table_statistics",
+    "x$schema_table_statistics_with_buffer",
+    "x$schema_tables_with_full_table_scans",
+    "x$session",
+    "x$statement_analysis",
+    "x$statements_with_errors_or_warnings",
+    "x$statements_with_full_table_scans",
+    "x$statements_with_runtimes_in_95th_percentile",
+    "x$statements_with_sorting",
+    "x$statements_with_temp_tables",
+    "x$user_summary",
+    "x$user_summary_by_file_io",
+    "x$user_summary_by_file_io_type",
+    "x$user_summary_by_stages",
+    "x$user_summary_by_statement_latency",
+    "x$user_summary_by_statement_type",
+    "x$wait_classes_global_by_avg_latency",
+    "x$wait_classes_global_by_latency",
+    "x$waits_by_host_by_latency",
+    "x$waits_by_user_by_latency",
+    "x$waits_global_by_latency"
+]
+-----------------------
+[
+    "empresa",
+    "users"
+]
+-----------------------
+{
+    "drivers": [
+        "DriveMysql"
+    ]
+}
+-----------------------
+[
+    {
+        "Database": "information_schema"
+    },
+    {
+        "Database": "LoopImoves"
+    },
+    {
+        "Database": "default"
+    },
+    {
+        "Database": "imovelsearch"
+    },
+    {
+        "Database": "mysql"
+    },
+    {
+        "Database": "performance_schema"
+    },
+    {
+        "Database": "sys"
+    },
+    {
+        "Database": "wpp"
+    },
+    {
+        "Database": "wpp-C"
+    }
+]
+-----------------------
+[
+    "CHARACTER_SETS",
+    "COLLATIONS",
+    "COLLATION_CHARACTER_SET_APPLICABILITY",
+    "COLUMNS",
+    "COLUMN_PRIVILEGES",
+    "ENGINES",
+    "EVENTS",
+    "FILES",
+    "GLOBAL_STATUS",
+    "GLOBAL_VARIABLES",
+    "KEY_COLUMN_USAGE",
+    "OPTIMIZER_TRACE",
+    "PARAMETERS",
+    "PARTITIONS",
+    "PLUGINS",
+    "PROCESSLIST",
+    "PROFILING",
+    "REFERENTIAL_CONSTRAINTS",
+    "ROUTINES",
+    "SCHEMATA",
+    "SCHEMA_PRIVILEGES",
+    "SESSION_STATUS",
+    "SESSION_VARIABLES",
+    "STATISTICS",
+    "TABLES",
+    "TABLESPACES",
+    "TABLE_CONSTRAINTS",
+    "TABLE_PRIVILEGES",
+    "TRIGGERS",
+    "USER_PRIVILEGES",
+    "VIEWS",
+    "INNODB_LOCKS",
+    "INNODB_TRX",
+    "INNODB_SYS_DATAFILES",
+    "INNODB_FT_CONFIG",
+    "INNODB_SYS_VIRTUAL",
+    "INNODB_CMP",
+    "INNODB_FT_BEING_DELETED",
+    "INNODB_CMP_RESET",
+    "INNODB_CMP_PER_INDEX",
+    "INNODB_CMPMEM_RESET",
+    "INNODB_FT_DELETED",
+    "INNODB_BUFFER_PAGE_LRU",
+    "INNODB_LOCK_WAITS",
+    "INNODB_TEMP_TABLE_INFO",
+    "INNODB_SYS_INDEXES",
+    "INNODB_SYS_TABLES",
+    "INNODB_SYS_FIELDS",
+    "INNODB_CMP_PER_INDEX_RESET",
+    "INNODB_BUFFER_PAGE",
+    "INNODB_FT_DEFAULT_STOPWORD",
+    "INNODB_FT_INDEX_TABLE",
+    "INNODB_FT_INDEX_CACHE",
+    "INNODB_SYS_TABLESPACES",
+    "INNODB_METRICS",
+    "INNODB_SYS_FOREIGN_COLS",
+    "INNODB_CMPMEM",
+    "INNODB_BUFFER_POOL_STATS",
+    "INNODB_SYS_COLUMNS",
+    "INNODB_SYS_FOREIGN",
+    "INNODB_SYS_TABLESTATS"
+]
+-----------------------

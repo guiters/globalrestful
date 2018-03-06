@@ -1,0 +1,9 @@
+{
+  "drive": "DriveMysql",
+  "function": "showdatabases",
+  "requires": {
+    "REQUEST": [
+      "GET"
+    ]
+  }
+}

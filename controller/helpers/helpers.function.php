@@ -270,18 +270,22 @@ function in_array_r($needle, $haystack, $strict = false)
 function in_array_r_like_key($needle, $haystack, $strict = false)
 {
     $res = false;
-    foreach ($haystack as $item => $key) {
-        $atual = strpos($item, $needle);
-        if ($atual !== false) {
-            $res = $item;
+    if(is_array($haystack)) {
+        foreach ($haystack as $item => $key) {
+            $atual = strpos($item, $needle);
+            if ($atual !== false) {
+                $res = $item;
+            }
+            if (is_array($key)) {
+                $res = in_array_r_like($needle, $key, $strict);
+            }
         }
-        if (is_array($key)) {
-            $res = in_array_r_like($needle, $key, $strict);
+        if ($res) {
+            return $res;
+        } else {
+            return false;
         }
-    }
-    if ($res) {
-        return $res;
-    } else {
+    }else{
         return false;
     }
 }

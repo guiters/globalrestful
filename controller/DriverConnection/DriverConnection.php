@@ -12,7 +12,12 @@ class DriverConnection
     private $drive;
     public $result;
     private $dataBaseParams = '';
-    private $method = ['get' => 'select', 'post' => "insert", "put" => "update", "delete" => "delete"];
+    private $method = ['get' => 'select',
+        'post' => "insert",
+        "put" => "update",
+        "delete" => "delete",
+        'showdatabases' => 'showdatabases',
+        'show_table' => 'show_table'];
     private $driveMethod;
 
     function __construct($pattern)
@@ -35,7 +40,11 @@ class DriverConnection
     function start()
     {
         $this->setdriver($this->pattern['drive']);
-        $this->result = $this->method(strtolower($this->pattern['REQUEST']));
+        if (isset($this->pattern['function'])) {
+            $this->result = $this->method($this->method[$this->pattern['function']]);
+        } else {
+            $this->result = $this->method(strtolower($this->pattern['REQUEST']));
+        }
         return $this->custom_response();
     }
 
@@ -48,12 +57,16 @@ class DriverConnection
 
     function setParams($method)
     {
-        foreach ($this->driveMethod[$method] as $item) {
-            if (isset($this->pattern[$item])) {
-                $this->dataBaseParams .= ', $this->pattern["' . $item . '"]';
+        if (isset($this->driveMethod[$method])) {
+            foreach ($this->driveMethod[$method] as $item) {
+                if (isset($this->pattern[$item])) {
+                    $this->dataBaseParams .= ', $this->pattern["' . $item . '"]';
+                } else if (isset($this->pattern['function'])) {
+                    $this->dataBaseParams .= ', $this->pattern["whereString"]["' . $item . '"]';
+                }
             }
+            $this->dataBaseParams = substr($this->dataBaseParams, 2);
         }
-        $this->dataBaseParams = substr($this->dataBaseParams, 2);
     }
 
     function method($method)
@@ -66,9 +79,12 @@ class DriverConnection
 
     function setdriver($drive)
     {
-        require 'model/drivers/' . $drive . '/' . $drive . '.class.php';
-        eval('$this->drive = new ' . $drive . '();');
-        $this->driveMethod = $this->drive->config();
-
+        if ($drive) {
+            require 'model/drivers/' . $drive . '/' . $drive . '.class.php';
+            eval('$this->drive = new ' . $drive . '();');
+            $this->driveMethod = $this->drive->config();
+        } else {
+            die('sem Drive Valido');
+        }
     }
 }

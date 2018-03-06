@@ -17,5 +17,8 @@
   "delete": [
     "table",
     "whereString"
+  ],
+  "show_table": [
+    "database"
   ]
 }

@@ -256,7 +256,22 @@ class DriveMysql
         $sql = 'SHOW TABLES LIKE "' . $table . '";';
         $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('Error cheking table', mysqli_error($mysqli), $sql, $table)));
         if ($res) {
-            return TRUE;
+            return $res;
+        } else {
+            return FALSE;
+        }
+    }
+
+    function show_table($database)
+    {
+        $mysqli = $this->connect($database);
+        $sql = 'SHOW TABLES;';
+        $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('Error cheking table', mysqli_error($mysqli), $sql)));
+        while ($cRow = mysqli_fetch_array($res)) {
+            $tableList[] = $cRow[0];
+        }
+        if ($res) {
+            return $tableList;
         } else {
             return FALSE;
         }
@@ -426,6 +441,20 @@ class DriveMysql
             return array_keys($arr) !== range(0, count($arr) - 1);
         } else {
             return false;
+        }
+    }
+
+    function showdatabases($return = 'array')
+    {
+        $mysqli = $this->connect($this->base);
+        $select = mysqli_query($mysqli, 'SHOW DATABASES');
+        if ($return == 'array') {
+            while ($row = $select->fetch_assoc()) {
+                $result[] = array_map('utf8_encode', $row);
+            }
+            return $result;
+        } else {
+            return $select;
         }
     }
 }

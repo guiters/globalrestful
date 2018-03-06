@@ -1,0 +1,14 @@
+{
+  "drive": "DriveMysql",
+  "function": "show_table",
+  "where": {
+    "require": {
+      "database": "/^.{1,}$/"
+    }
+  },
+  "requires": {
+    "REQUEST": [
+      "GET"
+    ]
+  }
+}

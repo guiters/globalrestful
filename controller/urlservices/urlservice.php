@@ -11,8 +11,18 @@ class urlService
 
     public function getPages()
     {
-        $pages = explode('/', $this->url);
+        $pages = array_map(array($this, 'removeGet'), explode('/', $this->url));
         return array_values(array_filter($pages));
+    }
+
+    public function removeGet($route)
+    {
+        if (strpos($route, '?') !== false) {
+            $res = explode('?', $route);
+            return $res[0];
+        }else{
+            return $route;
+        }
     }
 
     public function getProto()

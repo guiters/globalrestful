@@ -41,6 +41,7 @@ if ($secure->basicauth()) {
     $pattern = new pattern($route, $pattern_path);
     $pattern = $pattern->start();
     $result = $pattern;
+
     if (!in_array_r_like_key('error', $pattern)) {
         $driver = new DriverConnection($pattern);
         $result = $driver->start();
