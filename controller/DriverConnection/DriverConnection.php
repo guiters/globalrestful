@@ -17,7 +17,8 @@ class DriverConnection
         "put" => "update",
         "delete" => "delete",
         'showdatabases' => 'showdatabases',
-        'show_table' => 'show_table'];
+        'show_table' => 'show_table',
+        'show_table_columns' => 'show_table_columns'];
     private $driveMethod;
 
     function __construct($pattern)

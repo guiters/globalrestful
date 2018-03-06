@@ -20,5 +20,9 @@
   ],
   "show_table": [
     "database"
+  ],
+  "show_table_columns": [
+    "database",
+    "table"
   ]
 }

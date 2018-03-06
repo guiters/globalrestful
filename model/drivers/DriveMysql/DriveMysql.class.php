@@ -277,9 +277,11 @@ class DriveMysql
         }
     }
 
-    function get_table_structure($table)
+
+
+    function get_table_structure($database, $table)
     {
-        $mysqli = $this->connect($this->base);
+        $mysqli = $this->connect($database);
         $sql = "SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'" . $table . "';";
         $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('count', mysqli_error($mysqli), $sql, $table)));
         while ($row = $res->fetch_assoc()) {
@@ -288,13 +290,21 @@ class DriveMysql
         return $result;
     }
 
-    function get_table_coluns($table)
+    function show_table_columns($database, $table)
     {
-        $infos = $this->get_table_structure($table);
-        foreach ($infos as $info) {
-            $coluns[] = $info['COLUMN_NAME'];
+        $mysqli = $this->connect($database);
+        $sql = "SHOW COLUMNS FROM " . $table;
+        $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('count', mysqli_error($mysqli), $sql, $table)));
+        while ($cRow = mysqli_fetch_array($res)) {
+            $columns[] = $cRow[0];
         }
-        return $coluns;
+        /*
+        $infos = $this->get_table_structure($database, $table);
+        foreach ($infos as $info) {
+            $columns[] = $info['COLUMN_NAME'];
+        }
+        */
+        return $columns;
     }
 
     function check_table_coluns($table, $column)
@@ -317,7 +327,7 @@ class DriveMysql
             }
             $sql .= 'PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;';
 
-            $res = mysqli_query($mysqli, $query) or die(json_encode($this->error_report('Error creating table', mysqli_error($mysqli), $sql, $table)));
+            $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('Error creating table', mysqli_error($mysqli), $sql, $table)));
             if ($res) {
                 return TRUE;
             } else {
