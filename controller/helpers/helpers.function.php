@@ -816,7 +816,7 @@ function toconsole($text)
         $text = json_encode($text, JSON_PRETTY_PRINT);
     }
     $myfile = fopen(CONSOLE . '/console.log', "a+") or die("Unable to open file!");
-    fwrite($myfile, $text . PHP_EOL . '-----------------------' . PHP_EOL);
+    fwrite($myfile, $text.PHP_EOL);
     fclose($myfile);
     return $myfile;
 }
