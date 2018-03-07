@@ -22,8 +22,9 @@ class DriveMysql
         $mysqli = new mysqli($config[$this->connection]['host'], $config[$this->connection]['username'], $config[$this->connection]['password'], $this->base);
         /* check connection */
         if ($mysqli->connect_errno) {
-            printf("Connect failed: %s\n", $mysqli->connect_error);
-            exit();
+            header('HTTP/1.0 400 Bad Request');
+            printf($mysqli->connect_error);
+            die();
         } else {
             return $mysqli;
         }
@@ -66,8 +67,8 @@ class DriveMysql
         }
         $result = [];
 
-        //toconsole('Query:' . PHP_EOL . json_encode($sql));
-        $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('select', mysqli_error($mysqli), $sql, $table)));
+
+        $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('select', mysqli_error($mysqli), $sql, $table), JSON_PRETTY_PRINT));
         while ($row = $res->fetch_assoc()) {
             if (multidimensionalisjson($row)) {
                 $row = array_merge($row, multidimensionalisjson($row, true));
@@ -426,6 +427,7 @@ class DriveMysql
 
     function error_report($origin, $mysql_error, $sql, $tables, $data = null, $where = null)
     {
+        header('HTTP/1.0 400 Bad Request');
         $mysqli = $this->connect($this->base);
         $error_report['erro'] = 'no_results';
         $error_report['syntax'] = $sql;
