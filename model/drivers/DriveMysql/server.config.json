@@ -1,6 +1,12 @@
 {
-  "host": "127.0.0.1",
-  "username": "root",
-  "password": "mpx458mg9",
-  "connections": ""
+  "docker": {
+    "host": "127.0.0.1:13306",
+    "username": "root",
+    "password": "root"
+  },
+  "local": {
+    "host": "127.0.0.1",
+    "username": "root",
+    "password": "mpx458mg9"
+  }
 }

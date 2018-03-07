@@ -22,4 +22,13 @@ class ProcessResultClass
         return json_encode($this->result, $options);
     }
 
+    public function xml()
+    {
+        header("Content-type: text/xml");
+        $xml = new SimpleXMLElement("<?xml version=\"1.0\"?><Request></Request>");
+        $node = $xml->addChild('result');
+        array_to_xml($this->result, $node);
+        return $xml->asXML();
+    }
+
 }

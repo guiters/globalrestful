@@ -11,6 +11,8 @@ class DriverConnection
     private $pattern;
     private $drive;
     public $result;
+    public $base = 'default';
+    private $connection = 'local';
     private $dataBaseParams = '';
     private $method = ['get' => 'select',
         'post' => "insert",
@@ -82,7 +84,7 @@ class DriverConnection
     {
         if ($drive) {
             require 'model/drivers/' . $drive . '/' . $drive . '.class.php';
-            eval('$this->drive = new ' . $drive . '();');
+            eval('$this->drive = new ' . $drive . '($this->base, $this->connection);');
             $this->driveMethod = $this->drive->config();
         } else {
             die('sem Drive Valido');

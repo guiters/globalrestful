@@ -270,7 +270,7 @@ function in_array_r($needle, $haystack, $strict = false)
 function in_array_r_like_key($needle, $haystack, $strict = false)
 {
     $res = false;
-    if(is_array($haystack)) {
+    if (is_array($haystack)) {
         foreach ($haystack as $item => $key) {
             $atual = strpos($item, $needle);
             if ($atual !== false) {
@@ -285,7 +285,7 @@ function in_array_r_like_key($needle, $haystack, $strict = false)
         } else {
             return false;
         }
-    }else{
+    } else {
         return false;
     }
 }
@@ -816,7 +816,24 @@ function toconsole($text)
         $text = json_encode($text, JSON_PRETTY_PRINT);
     }
     $myfile = fopen(CONSOLE . '/console.log', "a+") or die("Unable to open file!");
-    fwrite($myfile, $text.PHP_EOL);
+    fwrite($myfile, $text . PHP_EOL);
     fclose($myfile);
     return $myfile;
+}
+
+// function to convert an array to XML using SimpleXML
+function array_to_xml($array, &$xml)
+{
+    foreach ($array as $key => $value) {
+        if (is_array($value)) {
+            if (!is_numeric($key)) {
+                $subnode = $xml->addChild("$key");
+                array_to_xml($value, $subnode);
+            } else {
+                array_to_xml($value, $xml);
+            }
+        } else {
+            $xml->addChild("$key", "$value");
+        }
+    }
 }

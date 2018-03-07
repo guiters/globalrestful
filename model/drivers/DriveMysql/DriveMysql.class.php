@@ -4,12 +4,22 @@ class DriveMysql
 {
 
     public $base = 'default';
+    private $connection = 'local';
     private $configfile = 'server.config.json';
 
-    function connect($base = 'global')
+    function __construct($base, $connection)
     {
+        $this->base = $base;
+        $this->connection = $connection;
+    }
+
+    function connect($base = false)
+    {
+        if($base){
+            $this->base = $base;
+        }
         $config = json_decode(file_get_contents(__DIR__ . '/' . $this->configfile), true);
-        $mysqli = new mysqli($config['host'], $config['username'], $config['password'], $base);
+        $mysqli = new mysqli($config[$this->connection]['host'], $config[$this->connection]['username'], $config[$this->connection]['password'], $this->base);
         /* check connection */
         if ($mysqli->connect_errno) {
             printf("Connect failed: %s\n", $mysqli->connect_error);
@@ -276,7 +286,6 @@ class DriveMysql
             return FALSE;
         }
     }
-
 
 
     function get_table_structure($database, $table)
