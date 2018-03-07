@@ -41,18 +41,11 @@ if ($secure->basicauth()) {
     $pattern = new pattern($route, $pattern_path);
     $pattern = $pattern->start();
     $result = $pattern;
-
     if (!in_array_r_like_key('error', $pattern)) {
         $driver = new DriverConnection($pattern);
         $result = $driver->start();
     }
     echo json_encode($result, JSON_PRETTY_PRINT);
-    /*DEBUG MODE*/
-    toconsole('-----------------------' . date('d/m/Y - H:I:s') . '--------------------------');
-    toconsole('New Request - ' . $url->getComplete());
-    toconsole(json_encode($result, JSON_PRETTY_PRINT));
-
-    /*DEBUG MODE*/
 } else {
     header('HTTP/1.0 403 Forbidden');
     echo 'You are forbidden!';
@@ -60,6 +53,3 @@ if ($secure->basicauth()) {
 
 $time_end = microtime(true);
 $execution_time = round(($time_end - $time_start) * 1000);
-//toconsole(json_encode($result, JSON_PRETTY_PRINT));
-toconsole('------------TIME: ' . $execution_time.'-----------');
-toconsole('--------------------------------------------------' . PHP_EOL);
