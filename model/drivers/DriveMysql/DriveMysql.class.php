@@ -15,7 +15,7 @@ class DriveMysql
 
     function connect($base = false)
     {
-        if($base){
+        if ($base) {
             $this->base = $base;
         }
         $config = json_decode(file_get_contents(__DIR__ . '/' . $this->configfile), true);

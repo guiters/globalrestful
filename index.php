@@ -1,4 +1,5 @@
 <?php
+
 /*
  * Aplicacao dinamica para qualquer tipo de base de dados
  * Nesta aplicacao voce podera criar sua api apenas criando patterns de exibição

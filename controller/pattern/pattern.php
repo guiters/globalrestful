@@ -14,6 +14,7 @@ class pattern
     protected $patternfile;
     private $whereType = ['require', 'optional'];
     private $columns = ['columns'];
+    private $connection = 'local';
 
     function __construct($route, $path)
     {
@@ -21,9 +22,8 @@ class pattern
         $this->path = $path;
         $this->patternfile = $this->getPattern();
 
-        if ($this->patternfile) {
+        if (is_file($this->patternfile)) {
             $this->patternfile = file_get_contents($this->patternfile);
-
             if (is_json($this->patternfile)) {
                 $this->pattern = json_decode($this->patternfile, true);
                 $this->pageControl();
@@ -32,6 +32,10 @@ class pattern
                 $this->arrayToWhere();
                 $this->makeCustomResponse();
             }
+        }else{
+            header('HTTP/1.0 400 Bad Request');
+            echo 'This route does not exist';
+            die();
         }
     }
 
@@ -40,6 +44,11 @@ class pattern
         return $this->pattern;
     }
 
+    public function connectionControl(){
+        if(!isset($this->pattern['connection'])){
+            $this->pattern['connection'] = $this->connection;
+        }
+    }
     public function makeCustomResponse()
     {
         $patternregx = '/(?<={)(.*)(?=})/';

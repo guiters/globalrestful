@@ -58,6 +58,12 @@ class DriverConnection
         }
     }
 
+    function setconnetion(){
+        if(isset($this->pattern['connection'])) {
+            $this->connection = $this->pattern['connection'];
+        }
+    }
+
     function setParams($method)
     {
         if (isset($this->driveMethod[$method])) {

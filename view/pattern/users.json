@@ -1,6 +1,7 @@
 {
   "drive": "DriveMysql",
   "database": "default",
+  "connections": "local",
   "table": "user",
   "columns": [
     "id",
@@ -10,13 +11,11 @@
   ],
   "limitpage": "1",
   "where": {
-    "require" : {
-      "id" : "/^[0-9]*$/"
-    },
     "optional": {
+      "id": "/^[0-9]*$/",
       "user": "/^[0-9]*$/",
       "pass": "/^[0-9]*$/",
-      "email": "/[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+.[a-zA-Z]{2,4}/"
+      "status": "/^[0-9]*$/"
     }
   },
   "requires": {
