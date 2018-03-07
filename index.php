@@ -4,7 +4,7 @@
  * Nesta aplicacao voce podera criar sua api apenas criando patterns de exibição
  * Não necessitando conhecimento de desenvolvimento de software
  * A aplicacao é totalmente dinamica e automatica.
- * Para solicitar novos drivers de conexao contate-me Guilhermecamachop@gmail.com
+ * Para solicitar novos drivers de conexao contate-me guilhermecamacho.com
  * */
 
 session_start();
@@ -28,6 +28,7 @@ require 'controller/secure/security.php';
 require 'controller/pattern/pattern.php';
 require 'controller/DriverConnection/DriverConnection.php';
 require 'controller/CustomResponse/CustomResponse.php';
+require 'controller/ProcessResult/ProcessResultClass.php';
 /* Arquivos necessarios base para o funcionamento */
 
 /*Inicio o controle de rota*/
@@ -37,7 +38,6 @@ $route = $url->getPages();
 $secure = new security('GET', $auth);
 
 if ($secure->basicauth()) {
-    header('Content-Type: application/json');
     $pattern = new pattern($route, $pattern_path);
     $pattern = $pattern->start();
     $result = $pattern;
@@ -45,7 +45,8 @@ if ($secure->basicauth()) {
         $driver = new DriverConnection($pattern);
         $result = $driver->start();
     }
-    echo json_encode($result, JSON_PRETTY_PRINT);
+    $ProcessResult = new ProcessResultClass($result);
+    echo $ProcessResult->json();
 } else {
     header('HTTP/1.0 403 Forbidden');
     echo 'You are forbidden!';
