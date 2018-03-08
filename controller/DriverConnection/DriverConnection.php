@@ -34,8 +34,7 @@ class DriverConnection
             $custom = new CustomResponse($this->pattern, $this->result);
             $process = $this->makeCustomResponse();
             if ($this->result) {
-                toconsole($process);
-                //eval('$this->result = $this->pattern["customResponse"]["REQUEST"][$this->pattern["REQUEST"]]["Found"]');
+                eval('$this->result = $process["Found"];');
             } else {
                 //eval('$this->result = $this->pattern["customResponse"]["REQUEST"][$this->pattern["REQUEST"]]["NotFound"]');
             }
@@ -101,41 +100,35 @@ class DriverConnection
         }
     }
 
-    //TODO Make this Recursive!!!
     public function makeCustomResponse()
     {
+        $result = false;
         $customResponse = $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']];
         if (isset($customResponse)) {
             foreach ($customResponse as $key => $value) {
                 if (is_array($value)) {
-                    $this->ProcessCustomResponse($value);
+                    $result[$key] = $this->ProcessCustomResponse($value);
                 }
             }
         }
+        return $result;
     }
 
     function ProcessCustomResponse($value)
     {
+        $result = false;
         foreach ($value as $skey => $svalue) {
             if (is_array($svalue)) {
                 foreach ($svalue as $fkey => $fvalue) {
                     $call = createCall($fvalue, $fkey, "/{(.*?)}/", "/\((.*?)\)/", 'CustomResponse');
-                    eval($call['class']. ';');
-                    eval('toconsole(' . $call['func'] . ');');
-
+                    eval($call['class'] . ';');
+                    eval('$result[$skey] = ' . $call['func'] . ';');
                 }
             } else {
-                if (preg_match('/{(.*?)}/', $svalue)) {
-                    toconsole(preg_match_all("/{(.*?)}/", $svalue, $func));
-                    /*
-                    $function = str_replace('{', '', str_replace('}', '', $svalue));
-                    $func = '$custom->' . $function . '()';
-                    $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']][$key][$skey] = $func;
-                    */
-                    toconsole(json_encode($func, JSON_PRETTY_PRINT));
-                    return $func;
-                }
+                $result[$skey] = $svalue;
+                //TODO fazer aqui para funcao unica!!!
             }
         }
+        return $result;
     }
 }
