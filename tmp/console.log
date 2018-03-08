@@ -1,19 +1,22 @@
-
-
-
-
-
-
-
+[
+    "Token",
+    "$this->result"
+]
 
 [
-    [
-        "{Token}",
-        "{$this->result}"
-    ],
-    [
-        "Token",
-        "$this->result"
-    ]
+    "'Token'",
+    "$this->result"
 ]
+
+security('Token', $this->result)
+
+TokenCreate
+
+CustomResponse = new security('Token', $this->result);
+CustomResponse->TokenCreate
+
+CustomResponse = new security('Token', $this->result);
+CustomResponse->TokenCreate()
+
+AEEEEEE CARALHOOO
 

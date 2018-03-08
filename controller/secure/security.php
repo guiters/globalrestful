@@ -58,7 +58,7 @@ class security
 
     function TokenCreate()
     {
-
+        return 'AEEEEEE CARALHOOO';
     }
 
     function TokenValidate()

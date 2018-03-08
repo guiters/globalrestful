@@ -837,3 +837,30 @@ function array_to_xml($array, &$xml)
         }
     }
 }
+
+function is_var($baz)
+{
+    $res = false;
+    if ($baz[0] == '$') {
+        $res = true;
+    }
+    return $res;
+}
+
+function createCall($string, $class, $PatPar, $PatParFunc, $classVar)
+{
+    preg_match_all($PatPar, $string, $const);
+    preg_match_all($PatParFunc, $string, $act);
+    $classParams = [];
+    foreach ($const[1] as $param) {
+        if (!is_var($param)) {
+            $classParams[] = "'" . $param . "'";
+        } else {
+            $classParams[] = $param;
+        }
+
+    }
+    $main = '$' . $classVar . ' = new ' . $class . '(' . implode(', ', $classParams) . ');';
+    $func = '$' . $classVar . '->' . implode('', $act[1]) . '()';
+    return ['class' => $main, 'func' => $func];
+}

@@ -15,23 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="security.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/secure/security.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#7#344#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="343">
+              <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/secure/security.php">
+      <file leaf-file-name="helpers.function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/helpers/helpers.function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="410">
+              <caret line="864" column="35" lean-forward="false" selection-start-line="864" selection-start-column="31" selection-end-line="864" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -40,48 +38,8 @@
       <file leaf-file-name="DriverConnection.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/DriverConnection/DriverConnection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="114" column="56" lean-forward="false" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/pattern/login.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pattern.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/pattern/pattern.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1602">
-              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/pattern/register.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomResponse.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/CustomResponse/CustomResponse.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="167">
+              <caret line="123" column="59" lean-forward="false" selection-start-line="123" selection-start-column="59" selection-end-line="123" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -152,18 +110,18 @@
         <option value="$PROJECT_DIR$/view/pattern/searchtables.json" />
         <option value="$PROJECT_DIR$/model/drivers/DriveMysql/driverconfig.json" />
         <option value="$PROJECT_DIR$/view/pattern/searchtablescolumn.json" />
-        <option value="$PROJECT_DIR$/controller/helpers/helpers.function.php" />
         <option value="$PROJECT_DIR$/controller/ProcessResult/ProcessResultClass.php" />
         <option value="$PROJECT_DIR$/model/drivers/DriveMysql/server.config.json" />
         <option value="$PROJECT_DIR$/model/drivers/DriveMysql/DriveMysql.class.php" />
         <option value="$PROJECT_DIR$/view/pattern/users.json" />
         <option value="$PROJECT_DIR$/TODO.md" />
         <option value="$PROJECT_DIR$/view/pattern/register.json" />
-        <option value="$PROJECT_DIR$/controller/secure/security.php" />
         <option value="$PROJECT_DIR$/view/pattern/login.json" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controller/CustomResponse/CustomResponse.php" />
         <option value="$PROJECT_DIR$/controller/pattern/pattern.php" />
+        <option value="$PROJECT_DIR$/controller/helpers/helpers.function.php" />
+        <option value="$PROJECT_DIR$/controller/secure/security.php" />
         <option value="$PROJECT_DIR$/controller/DriverConnection/DriverConnection.php" />
       </list>
     </option>
@@ -225,6 +183,12 @@
               <item name="globalrestful" type="b2602c69:ProjectViewProjectNode" />
               <item name="globalrestful" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ProcessResult" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="globalrestful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="globalrestful" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="secure" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -242,8 +206,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,12 +275,13 @@
       <workItem from="1520437763178" duration="752000" />
       <workItem from="1520440895357" duration="53000" />
       <workItem from="1520444705455" duration="8529000" />
-      <workItem from="1520508176699" duration="11278000" />
+      <workItem from="1520508176699" duration="11443000" />
+      <workItem from="1520533362377" duration="5251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155782000" />
+    <option name="totallyTimeSpent" value="161198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-667" y="27" width="1366" height="741" extended-state="6" />
@@ -494,16 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ProcessResult/ProcessResultClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/drivers/DriveMysql/server.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -522,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="71" column="11" lean-forward="false" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +492,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -549,45 +501,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="418" column="48" lean-forward="true" selection-start-line="418" selection-start-column="48" selection-end-line="418" selection-end-column="48" />
-          <folding>
-            <marker date="1520454455240" expanded="true" signature="1243:1257" ph="SELECT * FRO... ${$table}" />
-            <marker date="1520454455240" expanded="true" signature="2628:2649" ph="SELECT COUNT... ${$table}" />
-            <marker date="1520454455240" expanded="true" signature="3220:3249" ph="SELECT * FRO... ${$table}" />
-            <marker date="1520454455240" expanded="true" signature="3855:3915" ph="SELECT * FRO... ${$table1}" />
-            <marker date="1520454455240" expanded="true" signature="4977:5013" ph="INSERT INTO ${$table}" />
-            <marker date="1520454455240" expanded="true" signature="5598:5610" ph="INSERT INTO ${$table}... " />
-            <marker date="1520454455240" expanded="true" signature="6747:6775" ph="SELECT * FRO... ${$table}" />
-            <marker date="1520454455240" expanded="true" signature="7628:7657" ph="UPDATE ${$table}... " />
-            <marker date="1520454455240" expanded="true" signature="8231:8264" ph="DELETE FROM ${$table}... " />
-            <marker date="1520454455240" expanded="true" signature="9648:9725" ph="SELECT * FRO... COLUMNS" />
-            <marker date="1520454455240" expanded="true" signature="11107:11136" ph="CREATE TABLE... ${$table}" />
-            <marker date="1520454455240" expanded="true" signature="11953:11981" ph="ALTER TABLE `${$table}`... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#7#344#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/secure/security.php">
+    <entry file="file://$PROJECT_DIR$/view/pattern/register.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="24" />
+        <state relative-caret-position="208">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/helpers/helpers.function.php">
+    <entry file="file://$PROJECT_DIR$/controller/pattern/pattern.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="812" column="9" lean-forward="false" selection-start-line="812" selection-start-column="9" selection-end-line="812" selection-end-column="9" />
+        <state relative-caret-position="18">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/pattern/login.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/secure/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -600,34 +554,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pattern/register.json">
+    <entry file="file://$PROJECT_DIR$/controller/ProcessResult/ProcessResultClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="433">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pattern/login.json">
+    <entry file="file://$PROJECT_DIR$/controller/helpers/helpers.function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/pattern/pattern.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1602">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="410">
+          <caret line="864" column="35" lean-forward="false" selection-start-line="864" selection-start-column="31" selection-end-line="864" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/DriverConnection/DriverConnection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="114" column="56" lean-forward="false" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="56" />
+        <state relative-caret-position="167">
+          <caret line="123" column="59" lean-forward="false" selection-start-line="123" selection-start-column="59" selection-end-line="123" selection-end-column="59" />
           <folding />
         </state>
       </provider>

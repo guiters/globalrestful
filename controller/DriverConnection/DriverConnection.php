@@ -104,32 +104,38 @@ class DriverConnection
     //TODO Make this Recursive!!!
     public function makeCustomResponse()
     {
-        $patternregx = '/(?<={)(.*)(?=})/';
-        if (isset($this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']])) {
-            foreach ($this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']] as $key => $value) {
+        $customResponse = $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']];
+        if (isset($customResponse)) {
+            foreach ($customResponse as $key => $value) {
                 if (is_array($value)) {
-                    foreach ($value as $skey => $svalue) {
-                        if (is_array($svalue)) {
-                            foreach ($svalue as $fkey => $fvalue){
-                                preg_match_all("/{(.*?)}/", $fvalue, $const);
-                                toconsole($fkey . $const);
-                            }
-                        } else {
-                            if (preg_match($patternregx, $svalue)) {
-                                toconsole(preg_match_all("/{(.*?)}/", $svalue, $func));
-                                /*
-                                $function = str_replace('{', '', str_replace('}', '', $svalue));
-                                $func = '$custom->' . $function . '()';
-                                $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']][$key][$skey] = $func;
-                                */
-                                toconsole(json_encode($func, JSON_PRETTY_PRINT));
-                                return $func;
-                            }
-                        }
-                    }
+                    $this->ProcessCustomResponse($value);
                 }
             }
         }
     }
 
+    function ProcessCustomResponse($value)
+    {
+        foreach ($value as $skey => $svalue) {
+            if (is_array($svalue)) {
+                foreach ($svalue as $fkey => $fvalue) {
+                    $call = createCall($fvalue, $fkey, "/{(.*?)}/", "/\((.*?)\)/", 'CustomResponse');
+                    eval($call['class']. ';');
+                    eval('toconsole(' . $call['func'] . ');');
+
+                }
+            } else {
+                if (preg_match('/{(.*?)}/', $svalue)) {
+                    toconsole(preg_match_all("/{(.*?)}/", $svalue, $func));
+                    /*
+                    $function = str_replace('{', '', str_replace('}', '', $svalue));
+                    $func = '$custom->' . $function . '()';
+                    $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']][$key][$skey] = $func;
+                    */
+                    toconsole(json_encode($func, JSON_PRETTY_PRINT));
+                    return $func;
+                }
+            }
+        }
+    }
 }
