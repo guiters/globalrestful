@@ -28,14 +28,13 @@ class pattern
                 $this->pattern = json_decode($this->patternfile, true);
                 $this->pageControl();
                 $this->getMethod();
+
                 $this->whereValidate();
                 $this->arrayToWhere();
-                $this->makeCustomResponse();
+                //$this->makeCustomResponse();
             }
-        }else{
-            header('HTTP/1.0 400 Bad Request');
-            echo 'This route does not exist';
-            die();
+        } else {
+            $this->error('This route does not exist');
         }
     }
 
@@ -44,31 +43,14 @@ class pattern
         return $this->pattern;
     }
 
-    public function connectionControl(){
-        if(!isset($this->pattern['connection'])){
+    public function connectionControl()
+    {
+        if (!isset($this->pattern['connection'])) {
             $this->pattern['connection'] = $this->connection;
         }
     }
-    public function makeCustomResponse()
-    {
-        $patternregx = '/(?<={)(.*)(?=})/';
-        $custom = new CustomResponse($this->pattern);
-        if (isset($this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']])) {
-            foreach ($this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']] as $key => $value) {
-                if (is_array($value)) {
-                    foreach ($value as $skey => $svalue) {
-                        if (preg_match($patternregx, $svalue)) {
-                            $function = str_replace('{', '', str_replace('}', '', $svalue));
-                            if (method_exists($custom, $function)) {
-                                eval('$func = $custom->' . $function . '();');
-                            }
-                            $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']][$key][$skey] = $func;
-                        }
-                    }
-                }
-            }
-        }
-    }
+
+
 
     private function arrayToWhere()
     {
@@ -115,6 +97,7 @@ class pattern
         $get = $_GET;
         if (isset($this->pattern['REQUEST_DATA'])) {
             $get = $this->pattern['REQUEST_DATA'];
+
         }
         foreach ($get as $key => $value) {
             foreach ($this->whereType as $where) {
@@ -214,18 +197,23 @@ class pattern
     public
     function getMethod()
     {
-
         $this->pattern['REQUEST'] = "GET";
         if (!isAssoc($this->pattern['requires']['REQUEST'])) {
             if (in_array($_SERVER['REQUEST_METHOD'], $this->pattern['requires']['REQUEST'])) {
                 $this->pattern['REQUEST'] = $_SERVER['REQUEST_METHOD'];
+            } else {
+                $this->error('This method is not valid for this request');
             }
             if (isset($_GET)) {
                 $this->matchGET();
             }
         } else {
-            $this->pattern['REQUEST'] = $this->pattern['requires']['REQUEST'][$_SERVER['REQUEST_METHOD']];
-            eval('$pattern["REQUEST_DATA"]' . ' = $_' . $_SERVER['REQUEST_METHOD'] . ';');
+            if (in_array_r_like_key($_SERVER['REQUEST_METHOD'], $this->pattern['requires']['REQUEST'])) {
+                $this->pattern['REQUEST'] = $this->pattern['requires']['REQUEST'][$_SERVER['REQUEST_METHOD']];
+                eval('$this->pattern["REQUEST_DATA"] = $_' . $_SERVER['REQUEST_METHOD'] . ';');
+            } else {
+                $this->error('This method is not valid for this request');
+            }
         }
         eval('$this->match' . $this->pattern['REQUEST'] . '();');
     }
@@ -240,5 +228,12 @@ class pattern
                 break;
             }
         }
+    }
+
+    public function error($message)
+    {
+        header('HTTP/1.0 400 Bad Request');
+        echo $message;
+        die();
     }
 }

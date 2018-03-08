@@ -1,7 +1,7 @@
 {
   "drive": "DriveMysql",
-  "database": "default",
-  "table": "user",
+  "database": "user",
+  "table": "users",
   "columns": [
     "id",
     "user",
@@ -10,7 +10,7 @@
   ],
   "limitpage": "1",
   "where": {
-    "require":{
+    "require": {
       "id": "/^[0-9]*$/"
     },
     "optional": {
@@ -22,9 +22,10 @@
   },
   "requires": {
     "REQUEST": [
-      "POST",
-      "PUT",
-      "DELETE"
+      "POST"
+    ],
+    "AUTH": [
+      "TokenValidate"
     ]
   }
 }

@@ -46,7 +46,6 @@ class security
         if (is_null($username)) {
             header('WWW-Authenticate: Basic realm="GlobalRestFul"');
             header('HTTP/1.0 401 Unauthorized');
-            //die(print_r($_SERVER));
             die('Acesso negado.');
 // Se houve envio dos dados
         } elseif ($username === $this->auth['user'] && $password === $this->auth['pass']) {
@@ -54,5 +53,16 @@ class security
             header('HTTP/1.0 200 OK');
             return true;
         }
+    }
+
+
+    function TokenCreate()
+    {
+
+    }
+
+    function TokenValidate()
+    {
+
     }
 }

@@ -9,10 +9,16 @@
 class CustomResponse
 {
     private $pattern;
+    private $result;
 
-    function __construct($pattern)
+    function __construct($pattern, $result)
     {
         $this->pattern = $pattern;
+        $this->result = $result;
+    }
+
+    function redirect($to){
+
     }
 
     function tokenSession(){

@@ -9,6 +9,7 @@
  * */
 
 session_start();
+
 $time_start = microtime(true);
 header("Access-Control-Allow-Origin: http://localhost:4200");
 header("Access-Control-Allow-Credentials: true");

@@ -1,7 +1,7 @@
 {
   "drive": "DriveMysql",
-  "database": "default",
-  "table": "user",
+  "database": "user",
+  "table": "users",
   "columns": [
     "id",
     "user",
@@ -29,7 +29,9 @@
       "GET": {
         "Found": {
           "status": true,
-          "token": "{tokenSession}"
+          "token": {
+            "security": "{Token}{$this->result}(TokenCreate)"
+          }
         },
         "NotFound": {
           "status": false

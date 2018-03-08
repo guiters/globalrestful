@@ -31,10 +31,13 @@ class DriverConnection
     function custom_response()
     {
         if (isset($this->pattern['customResponse'])) {
+            $custom = new CustomResponse($this->pattern, $this->result);
+            $process = $this->makeCustomResponse();
             if ($this->result) {
-                $this->result = $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']]['Found'];
+                toconsole($process);
+                //eval('$this->result = $this->pattern["customResponse"]["REQUEST"][$this->pattern["REQUEST"]]["Found"]');
             } else {
-                $this->result = $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']]['NotFound'];
+                //eval('$this->result = $this->pattern["customResponse"]["REQUEST"][$this->pattern["REQUEST"]]["NotFound"]');
             }
         }
         return $this->result;
@@ -58,8 +61,9 @@ class DriverConnection
         }
     }
 
-    function setconnetion(){
-        if(isset($this->pattern['connection'])) {
+    function setconnetion()
+    {
+        if (isset($this->pattern['connection'])) {
             $this->connection = $this->pattern['connection'];
         }
     }
@@ -96,4 +100,36 @@ class DriverConnection
             die('sem Drive Valido');
         }
     }
+
+    //TODO Make this Recursive!!!
+    public function makeCustomResponse()
+    {
+        $patternregx = '/(?<={)(.*)(?=})/';
+        if (isset($this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']])) {
+            foreach ($this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']] as $key => $value) {
+                if (is_array($value)) {
+                    foreach ($value as $skey => $svalue) {
+                        if (is_array($svalue)) {
+                            foreach ($svalue as $fkey => $fvalue){
+                                preg_match_all("/{(.*?)}/", $fvalue, $const);
+                                toconsole($fkey . $const);
+                            }
+                        } else {
+                            if (preg_match($patternregx, $svalue)) {
+                                toconsole(preg_match_all("/{(.*?)}/", $svalue, $func));
+                                /*
+                                $function = str_replace('{', '', str_replace('}', '', $svalue));
+                                $func = '$custom->' . $function . '()';
+                                $this->pattern['customResponse']['REQUEST'][$this->pattern['REQUEST']][$key][$skey] = $func;
+                                */
+                                toconsole(json_encode($func, JSON_PRETTY_PRINT));
+                                return $func;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
