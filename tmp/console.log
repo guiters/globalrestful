@@ -1,20 +1,108 @@
-asda
-{
-    "Found": null,
-    "NotFound": null
-}
-asda
-{
-    "Found": "AEEEEEE CARALHOOO",
-    "NotFound": false
-}
-asda
-{
-    "Found": "AEEEEEE CARALHOOO",
-    "NotFound": false
-}
-asda
-{
-    "Found": "AEEEEEE CARALHOOO",
-    "NotFound": false
-}
+[
+    "$this->base = default",
+    "$this->connection = local",
+    "$this->dataBaseParams = ",
+    [
+        "$this->get = select",
+        "$this->post = insert",
+        "$this->put = update",
+        "$this->delete = delete",
+        "$this->showdatabases = showdatabases",
+        "$this->show_table = show_table",
+        "$this->show_table_columns = show_table_columns"
+    ]
+]
+[
+    "$this->base = default",
+    "$this->connection = local",
+    "$this->dataBaseParams = ",
+    [
+        "$this->get[get] = select",
+        "$this->post[post] = insert",
+        "$this->put[put] = update",
+        "$this->delete[delete] = delete",
+        "$this->showdatabases[showdatabases] = showdatabases",
+        "$this->show_table[show_table] = show_table",
+        "$this->show_table_columns[show_table_columns] = show_table_columns"
+    ]
+]
+[
+    "$this->base = default",
+    "$this->connection = local",
+    "$this->dataBaseParams = ",
+    [
+        "$this->method[get] = select",
+        "$this->method[post] = insert",
+        "$this->method[put] = update",
+        "$this->method[delete] = delete",
+        "$this->method[showdatabases] = showdatabases",
+        "$this->method[show_table] = show_table",
+        "$this->method[show_table_columns] = show_table_columns"
+    ]
+]
+[
+    "$this->base = \"default\"",
+    "$this->connection = \"local\"",
+    "$this->dataBaseParams = \"\"",
+    [
+        "$this->method[\"get\"\"] = \"select\"",
+        "$this->method[\"post\"\"] = \"insert\"",
+        "$this->method[\"put\"\"] = \"update\"",
+        "$this->method[\"delete\"\"] = \"delete\"",
+        "$this->method[\"showdatabases\"\"] = \"showdatabases\"",
+        "$this->method[\"show_table\"\"] = \"show_table\"",
+        "$this->method[\"show_table_columns\"\"] = \"show_table_columns\""
+    ]
+]
+[
+    "$this->base = \"default\"",
+    "$this->connection = \"local\"",
+    "$this->dataBaseParams = \"\"",
+    [
+        "$this->method[\"get\"] = \"select\"",
+        "$this->method[\"post\"] = \"insert\"",
+        "$this->method[\"put\"] = \"update\"",
+        "$this->method[\"delete\"] = \"delete\"",
+        "$this->method[\"showdatabases\"] = \"showdatabases\"",
+        "$this->method[\"show_table\"] = \"show_table\"",
+        "$this->method[\"show_table_columns\"] = \"show_table_columns\""
+    ]
+]
+[
+    "$this->base = \"default\"",
+    "$this->connection = \"local\"",
+    "$this->dataBaseParams = \"\"",
+    [
+        "$this->method[\"get\"] = \"select\"",
+        "$this->method[\"post\"] = \"insert\"",
+        "$this->method[\"put\"] = \"update\"",
+        "$this->method[\"delete\"] = \"delete\"",
+        "$this->method[\"showdatabases\"] = \"showdatabases\"",
+        "$this->method[\"show_table\"] = \"show_table\"",
+        "$this->method[\"show_table_columns\"] = \"show_table_columns\""
+    ]
+]
+[
+    "$this->base = \"default\";",
+    "$this->connection = \"local\";",
+    "$this->dataBaseParams = \"\";",
+    [
+        "$this->method[\"get\"] = \"select\";",
+        "$this->method[\"post\"] = \"insert\";",
+        "$this->method[\"put\"] = \"update\";",
+        "$this->method[\"delete\"] = \"delete\";",
+        "$this->method[\"showdatabases\"] = \"showdatabases\";",
+        "$this->method[\"show_table\"] = \"show_table\";",
+        "$this->method[\"show_table_columns\"] = \"show_table_columns\";"
+    ]
+]
+[
+    "$this->method[\"get\"] = \"select\";",
+    "$this->method[\"post\"] = \"insert\";",
+    "$this->method[\"put\"] = \"update\";",
+    "$this->method[\"delete\"] = \"delete\";",
+    "$this->method[\"showdatabases\"] = \"showdatabases\";",
+    "$this->method[\"show_table\"] = \"show_table\";",
+    "$this->method[\"show_table_columns\"] = \"show_table_columns\";"
+]
+null

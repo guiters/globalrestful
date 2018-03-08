@@ -1,0 +1,14 @@
+{
+  "base": "default",
+  "connection" : "local",
+  "dataBaseParams" : "",
+  "method" : {
+    "get" : "select",
+    "post" : "insert",
+    "put" : "update",
+    "delete" : "delete",
+    "showdatabases" : "showdatabases",
+    "show_table" : "show_table",
+    "show_table_columns" : "show_table_columns"
+  }
+}

@@ -11,20 +11,16 @@ class DriverConnection
     private $pattern;
     private $drive;
     public $result;
-    public $base = 'default';
-    private $connection = 'local';
-    private $dataBaseParams = '';
-    private $method = ['get' => 'select',
-        'post' => "insert",
-        "put" => "update",
-        "delete" => "delete",
-        'showdatabases' => 'showdatabases',
-        'show_table' => 'show_table',
-        'show_table_columns' => 'show_table_columns'];
+    public $base;
+    private $connection;
+    private $dataBaseParams;
+    private $method;
     private $driveMethod;
 
     function __construct($pattern)
     {
+        $config = json_decode(file_get_contents(__DIR__ . '/DriverConfiguration.json'), true);
+        $config = $this->loadConfig($config);
         $this->pattern = $pattern;
     }
 
@@ -36,7 +32,7 @@ class DriverConnection
             if ($this->result) {
                 eval('$this->result = $process["Found"];');
             } else {
-                //eval('$this->result = $this->pattern["customResponse"]["REQUEST"][$this->pattern["REQUEST"]]["NotFound"]');
+                eval('$this->result = $process["NotFound"];');
             }
         }
         return $this->result;
@@ -125,10 +121,26 @@ class DriverConnection
                     eval('$result[$skey] = ' . $call['func'] . ';');
                 }
             } else {
+                //TODO Fazer aqui para funcao unica!!!
+                //TODO Trabalhar as respostas
                 $result[$skey] = $svalue;
-                //TODO fazer aqui para funcao unica!!!
             }
         }
         return $result;
+    }
+
+    function loadConfig($config, $dad = false)
+    {
+        foreach ($config as $key => $value) {
+            if (is_array($value)) {
+                eval($this->loadConfig($value, $key));
+            } else {
+                if ($dad) {
+                    $key = $dad . '["' . $key . '"]';
+                }
+                eval('$this->' . $key . ' = "' . $value . '";');
+            }
+        }
+        return true;
     }
 }
