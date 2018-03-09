@@ -133,7 +133,7 @@ class DriverConnection
     {
         foreach ($config as $key => $value) {
             if (is_array($value)) {
-                eval($this->loadConfig($value, $key));
+                eval($this->loadConfig($value, $key). ';');
             } else {
                 if ($dad) {
                     $key = $dad . '["' . $key . '"]';
