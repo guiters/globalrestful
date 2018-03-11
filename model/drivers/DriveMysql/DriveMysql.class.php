@@ -102,7 +102,7 @@ class DriveMysql
     {
 
         $mysqli = $mysqli = $this->connect($this->base);
-        $sql = 'SELECT * FROM ' . $table . '';
+        $sql = 'SELECT * FROM ' . $table;
         if ($where == null) {
             $sql .= '';
         } else {
@@ -385,7 +385,7 @@ class DriveMysql
                     }
                 }
             }
-            $res = mysqli_query($mysqli, $query) or die(json_encode($this->error_report('Error creating table', mysqli_error($mysqli), $sql, $table)));
+            $res = mysqli_query($mysqli, $sql) or die(json_encode($this->error_report('Error creating table', mysqli_error($mysqli), $sql, $table)));
             if ($res) {
                 return TRUE;
             } else {

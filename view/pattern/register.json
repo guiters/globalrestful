@@ -24,8 +24,13 @@
     "REQUEST": [
       "POST"
     ],
-    "AUTH": [
-      "TokenValidate"
-    ]
+    "AUTH": {
+      "header": {
+        "info": "Token",
+        "method": {
+          "security": "{Token}{$this->result}(TokenValidate)[info]"
+        }
+      }
+    }
   }
 }

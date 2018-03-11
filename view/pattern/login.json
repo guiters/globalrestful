@@ -27,7 +27,7 @@
   "customResponse": {
     "REQUEST": {
       "GET": {
-        "Found": {
+        "Fo und": {
           "status": true,
           "token": {
             "security": "{Token}{$this->result}(TokenCreate)"

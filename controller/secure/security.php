@@ -30,7 +30,6 @@ class security
         $password = null;
         $mod = NULL;
 
-// Método para mod_php (Apache)
         if (isset($_SERVER['PHP_AUTH_USER'])) {
             $username = $_SERVER['PHP_AUTH_USER'];
             $password = $_SERVER['PHP_AUTH_PW'];
@@ -41,13 +40,10 @@ class security
             }
             $mod = 'HTTP_AUTHORIZATION';
         }
-
-// Se a autenticação não foi enviada
         if (is_null($username)) {
             header('WWW-Authenticate: Basic realm="GlobalRestFul"');
             header('HTTP/1.0 401 Unauthorized');
             die('Acesso negado.');
-// Se houve envio dos dados
         } elseif ($username === $this->auth['user'] && $password === $this->auth['pass']) {
             header('WWW-Authenticate: Basic realm="GlobalRestFul"');
             header('HTTP/1.0 200 OK');
@@ -67,8 +63,9 @@ class security
         return session_id();
     }
 
-    function TokenValidate($token)
+    function TokenValidate()
     {
+        $token = $this->mode;
         $res = false;
         $file = 'auth/' . $token . '.json';
         if (is_file($file)) {

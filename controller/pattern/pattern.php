@@ -27,11 +27,12 @@ class pattern
             if (is_json($this->patternfile)) {
                 $this->pattern = json_decode($this->patternfile, true);
                 $this->pageControl();
+                $this->getHeaders();
+                $this->checkAuth();
                 $this->getMethod();
-
                 $this->whereValidate();
                 $this->arrayToWhere();
-                //$this->makeCustomResponse();
+
             }
         } else {
             $this->error('This route does not exist');
@@ -49,7 +50,6 @@ class pattern
             $this->pattern['connection'] = $this->connection;
         }
     }
-
 
 
     private function arrayToWhere()
@@ -221,7 +221,6 @@ class pattern
     public
     function getPattern()
     {
-
         foreach ($this->route as $page) {
             if (is_file($this->path . '/' . $page . '.json')) {
                 return $this->path . '/' . $page . '.json';
@@ -229,6 +228,43 @@ class pattern
             }
         }
     }
+
+    public function getHeaders()
+    {
+        $this->pattern['header'] = getallheaders();
+    }
+
+
+    public function checkAuth()
+    {
+        if (isset($this->pattern['requires']['AUTH'])) {
+            foreach ($this->pattern['requires']['AUTH'] as $key => $value) {
+                $this->pattern[$key] = $this->processAuth($value, $key);
+            }
+            $call = $this->pattern[$key]['method'];
+            eval($call['class'] . ';');
+            eval('$result = ' . $call['func'] . ';');
+            if (isset($result) && $result) {
+                $this->error('Token invalido');
+            }
+        }
+    }
+
+
+    private function processAuth($auth, $loc)
+    {
+        foreach ($auth as $key => $value) {
+            if (is_array($value)) {
+                foreach ($value as $fkey => $fvalue) {
+                    $call['method'] = createCall($fvalue, $fkey, "/{(.*?)}/", "/\((.*?)\)/", 'checkAuth');
+                }
+            } else {
+                $this->pattern[$value] = $this->pattern[$loc][$value];
+            }
+        }
+        return $call;
+    }
+
 
     public function error($message)
     {
