@@ -810,15 +810,19 @@ function convert_value_to_number($array)
  * @param $text
  * @return bool|resource
  */
-function toconsole($text)
+function toconsole($text, $mode)
 {
     if (is_array($text)) {
         $text = json_encode($text, JSON_PRETTY_PRINT);
     }
-    $myfile = fopen(CONSOLE . '/console.log', "a+") or die("Unable to open file!");
-    fwrite($myfile, $text . PHP_EOL);
-    fclose($myfile);
-    return $myfile;
+    if(!$mode) {
+        $myfile = fopen(CONSOLE . '/console.log', "a+") or die("Unable to open file!");
+        fwrite($myfile, $text . PHP_EOL);
+        fclose($myfile);
+        return $myfile;
+    }else{
+        die($text);
+    }
 }
 
 // function to convert an array to XML using SimpleXML
@@ -861,6 +865,10 @@ function createCall($string, $class, $PatPar, $PatParFunc, $classVar)
 
     }
     $main = '$' . $classVar . ' = new ' . $class . '(' . implode(', ', $classParams) . ');';
-    $func = '$' . $classVar . '->' . implode('', $act[1]) . '()';
+    $func = '$' . $classVar . '->' . implode('', $act[1]) . '();';
     return ['class' => $main, 'func' => $func];
+}
+
+function replace_in_array($search, $replace, $subject, &$count = null){
+
 }

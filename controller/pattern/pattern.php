@@ -238,14 +238,19 @@ class pattern
     public function checkAuth()
     {
         if (isset($this->pattern['requires']['AUTH'])) {
+            $result = false;
             foreach ($this->pattern['requires']['AUTH'] as $key => $value) {
                 $this->pattern[$key] = $this->processAuth($value, $key);
-            }
-            $call = $this->pattern[$key]['method'];
-            eval($call['class'] . ';');
-            eval('$result = ' . $call['func'] . ';');
-            if (isset($result) && $result) {
-                $this->error('Token invalido');
+            };
+            if (isset($this->pattern[key($this->pattern['requires']['AUTH'])])) {
+                $call = $this->pattern[key($this->pattern['requires']['AUTH'])];
+                eval($call['class']);
+                eval('$result = ' . $call['func']);
+                if (!$result) {
+                    $this->error('Token invalido');
+                }
+            } else {
+                $this->error('Erro de configuração');
             }
         }
     }
@@ -260,9 +265,33 @@ class pattern
                 }
             } else {
                 $this->pattern[$value] = $this->pattern[$loc][$value];
+                $search = $value;
+                $replace = $this->pattern[$loc][$value];
             }
         }
-        return $call;
+        return $this->replace_array_like("'" . $search . "'", "'" . $replace . "'", $call['method']);
+    }
+
+    private function replace_array_like($search, $replace, $array)
+    {
+        $result = $array;
+        foreach ($array as $key => $value) {
+            if (!is_array($value)) {
+                $result[$this->replace_like($search, $replace, $key)] = $this->replace_like($search, $replace, $value);
+            } else {
+                $result[$this->replace_like($search, $replace, $key)] = $this->replace_array_like($search, $replace, $value);
+            }
+        }
+        return $result;
+    }
+
+    private function replace_like($search, $replace, $value)
+    {
+        $res = $value;
+        if (strpos($value, $search) !== false) {
+            $res = str_replace($search, $replace, $value);
+        }
+        return $res;
     }
 
 
