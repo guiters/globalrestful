@@ -51,7 +51,7 @@ if ($secure->basicauth()) {
     echo $ProcessResult->json();
 } else {
     header('Content-Type: application/json');
-    header('HTTP/1.0 403 Forbidden');
+    http_set_code(403);
     echo json_encode(['error' => 'Forbidden']);
 }
 
