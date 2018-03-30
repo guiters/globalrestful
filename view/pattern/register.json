@@ -28,7 +28,7 @@
       "header": {
         "info": "Token",
         "method": {
-          "security": "{'POST'}{$this->result}(TokenValidate)[info]"
+          "security": "{POST}{$this->result}{Token}(TokenValidate)[info]"
         }
       }
     }

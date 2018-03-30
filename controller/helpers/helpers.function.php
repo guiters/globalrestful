@@ -810,7 +810,7 @@ function convert_value_to_number($array)
  * @param $text
  * @return bool|resource
  */
-function toconsole($text, $mode)
+function toconsole($text, $mode=false)
 {
     if (is_array($text)) {
         $text = json_encode($text, JSON_PRETTY_PRINT);

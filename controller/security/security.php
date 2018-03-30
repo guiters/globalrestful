@@ -67,7 +67,7 @@ class security
 
     function TokenValidate()
     {
-        $token = $this->mode;
+        $token = $this->token;
         $res = false;
         $file = 'auth/' . $token . '.json';
         if (is_file($file)) {

@@ -15,6 +15,7 @@ class pattern
     private $whereType = ['require', 'optional'];
     private $columns = ['columns'];
     private $connection = 'local';
+    private $result = null;
 
     function __construct($route, $path)
     {
@@ -249,12 +250,13 @@ class pattern
             $result = false;
             foreach ($this->pattern['requires']['AUTH'] as $key => $value) {
                 $this->pattern[$key] = $this->processAuth($value, $key);
-            };
+            }
             if (isset($this->pattern[key($this->pattern['requires']['AUTH'])])) {
                 $call = $this->pattern[key($this->pattern['requires']['AUTH'])];
-                eval($call['class']);
-                eval('$result = ' . $call['func']);
-                if (!$result) {
+                //toconsole($call['class']);
+                eval($call['class'].';');
+                eval('$result = ' . $call['func'].';');
+                if (!isset($result) && !$result) {
                     $this->error('Token invalido', 401);
                 }
             } else {
