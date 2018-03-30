@@ -106,3 +106,221 @@
     "$this->method[\"show_table_columns\"] = \"show_table_columns\";"
 ]
 null
+$CustomResponse = new security(''GET'', $this->result, 'Token');
+$CustomResponse = new security('GET', $this->result, 'Token');
+$CustomResponse = new security('GET', $this->result, 'Token');
+$CustomResponse = new security('GET', $this->result, 'Token');
+{
+    "status": true,
+    "token": "7ghanv6lpml20ifuhd9a5drt31"
+}
+{
+    "drive": "DriveMysql",
+    "database": "user",
+    "table": "users",
+    "columns": [
+        "id",
+        "user",
+        "pass",
+        "status"
+    ],
+    "limitpage": "1",
+    "where": {
+        "require": [],
+        "optional": []
+    },
+    "requires": {
+        "REQUEST": {
+            "POST": "GET"
+        }
+    },
+    "customResponse": {
+        "REQUEST": {
+            "GET": {
+                "Found": {
+                    "status": true,
+                    "token": {
+                        "security": "{POST}{$this->result}{Token}(TokenCreate)"
+                    }
+                },
+                "NotFound": {
+                    "status": false
+                }
+            }
+        }
+    },
+    "header": {
+        "cache-control": "no-cache",
+        "Postman-Token": "c621188b-4820-4e33-96a9-4cd769db5efe",
+        "Authorization": "Basic dGVzdGU6dGVzdGU=",
+        "User-Agent": "PostmanRuntime\/7.1.1",
+        "Accept": "*\/*",
+        "Host": "localhost:8000",
+        "cookie": ".AspNetCore.Cookies=CfDJ8E7xEkWJr7NGmB6r6i-E6qWtfm8NFjVkWBEBbDe1PFROYOF1_40AJZYNEclrD8h6pqC6c6pgaEycMyOc7V20dYWDnAffVd7JPmSGemvyWXtvoOR-tVZZeuY8NAjY-2X5h2YnkdS2DHZSTQdbq6S9IEGlaVAZds2hiaCJA2S06LsX6aL0vep8TTsiOpp6dtmc0RgOcJejAuaUPq9TU1KmBd8wSE9W-XEEgmVmgaCOXKKFOViVqaeEnyqiAbYsupt292tRD3q7tUlOAnFGnLPcUVaDlxe8rGOG4Pz4CYSMg1Rlfd1SSap16J84wNewdgp9E5X8NlnCJbk84BmLoGrV_OlsnIbBgVmefnc2wnWXSKso-crvc9udcjiHTRPtAwNGQ8fKQtpsplIJDm8G5MP_mQbFJvVHJYzxx67fQylk9xuJm9F7uL99i_wf73Fxo_VweIEbv5xln43exxBjr-n1zuWcLzfOYNXYZ6P4nrQWOWsnX3yAmpvTltaaQjJSX807akoow2R8mjSGEcfOGUtFsJo5THmTCn11-yOfQDTG8oKeeG1qHdW0-VSItHql-lf9eloTsWLeEmhX0LzSfyCy4o2ynimbkzVFi4M4UG5-p8EV9Fa8wtK1WNIwOJzvHKcO5T0DxQEWxWwRdq9df3byIMxxQgJi7IHD76p6nPo6APGrT1pU3wBWhDg7kMjfmHKyiQFV4htjZ4fa2YT5fQnN4MemSaWG-fvP-DwyVa6le-iMyl3eqrpZZk_9nB7C08B8nLOdF4Tk8dvEs62_MiAx5M-6pXL7WX7nSUDzC2Mhm9K370SzoeCT9wlHdhC6SGjj8PhU9ftC_HphY9AIh-jqK6l2ooaV1f8yucvPvi1pXXNVDGSC9E4f2DRc8Ju23TW_3UODsoOlP12WVIMyo4JGGMBjDnJOLfhQFO4jsgjYlAA3g_CTCJLmMFjNev3Sb8h-2ktBNGtht_2ee-WPt5h1g7-zgGBaTLPi1LkWLJF9jBZ95DUgSL1sRwg6yPW_XtTylQPBeX7yki42uW6PDZjcre5H2AMhIVwNrTr3GJces0WcZ6QLUC414w4Bp_qlbSviBOm1eViJfV7B1am8IKtWJnZO2NOuWi7rDnkZLd_mFppEfuxJMnZuxaHQZhYW4ekgX0wUY8c2XAEnQkHIunjvMicRl6An9UQG_yFg6ZmMtTc8yGpwP5WfY1jaOnV5vJcKSNx_XlMCtM3ta_broCZ4q0OLMbYMM2gd8tAGUMp-DgHvjyUpn__dP0SfcdQISC8FqGI3lzUQp5LziWqTFF5YBxdY2e2Iw__Vjrf0bMoVHeevj60-u4oluRmR96qtFrWxbmoXoKAqhTF66hZdjp_VUD9yYxVAiD6lVvSl0KpvJ8ZzTwiTaI9pflm2D9Xx_hopke9Dt7kSuhom3DEIitlmeTBYREYTjbXWJZI2m1RawXdWCfBAPQzfKzp6WTztT1b-kRl58b0D4QIZeUGTELXNwzFSlCSYw2SR6bsTEkEThNueN9U704RtzU8NeGukAX5-FQQuTIs6rRbCbUu6OZXYhabseV3jc3HblaC0dttL9BC3_aKmw-fVgbG8cUtNTlfronlChSMccD-yIqA1MdkeO1mh-gKXxkR3_Rp-8f0t1GRdUwl1eJHC2rEZ3SCIdEU0Xqy64t8Wo0FEJ0xyA40RgSi0KaZ3fGoQNhvWeoLVZ4tIH1OSqmQ4QD5U4RsI4yFCdpFDBCN2spIlWjAplPAeAdc; PHPSESSID=7ghanv6lpml20ifuhd9a5drt31",
+        "accept-encoding": "gzip, deflate",
+        "content-length": "0",
+        "Connection": "keep-alive"
+    },
+    "REQUEST": "GET",
+    "whereString": false
+}
+{
+    "user": "asd"
+}
+[
+    "require",
+    "optional"
+]
+{
+    "user": "asd"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+{
+    "user": "asd",
+    "pass": "asda"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+{
+    "user": "asd",
+    "pass": "asda",
+    "status": "asdasa"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+$this->matchGET();
+{
+    "user": "asd",
+    "pass": "asda",
+    "status": "asdasa"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+$this->matchGET();
+{
+    "user": "asd",
+    "pass": "asda"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+$this->matchGET();
+{
+    "user": "asd",
+    "pass": "asda"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+{
+    "user": "asd",
+    "pass": "asda"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+1
+{
+    "user": "asd",
+    "pass": "asda"
+}
+{
+    "user": "\/^[a-zA-Z0-9_.-]*$\/",
+    "pass": "\/^[a-zA-Z0-9_.-]*$\/",
+    "status": "\/^[0-9]*$\/"
+}
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[0-9]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[0-9]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[0-9]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[0-9]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[0-9]*$/
+/^[a-zA-Z0-9_.-]*$/
+/^[a-zA-Z0-9_.-]*$/
+1
+
+{
+    "dasdas": ""
+}
+{
+    "dasdas": ""
+}
+[]
+[]
+[]
+{
+    "id": "12"
+}
+{
+    "id": "12"
+}
+{
+    "id": "12",
+    "eqwrrwe": "fdx"
+}
+id
+{
+    "id": "12",
+    "eqwrrwe": "fdx"
+}
+id
+{
+    "id": "12",
+    "eqwrrwe": "fdx"
+}
+id
+{
+    "id": "12"
+}
+id
+{
+    "id": "12"
+}
+{
+    "id": "12"
+}
+{
+    "id": "12",
+    "oiiii": "fdx"
+}
+{
+    "id": "12",
+    "oiiii": "fdx"
+}
+{
+    "oiiii": "fdx"
+}

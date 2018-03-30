@@ -10,10 +10,12 @@ class security
 {
     public $mode;
     public $auth;
+    public $token;
 
-    function __construct($mode, $auth)
+    function __construct($mode, $auth, $token = null)
     {
         $this->mode = $mode;
+        $this->token = $token;
         $this->auth = $auth;
     }
 
@@ -42,11 +44,11 @@ class security
         }
         if (is_null($username)) {
             header('WWW-Authenticate: Basic realm="GlobalRestFul"');
-            header('HTTP/1.0 401 Unauthorized');
+            http_set_code(401);
             die('Acesso negado.');
         } elseif ($username === $this->auth['user'] && $password === $this->auth['pass']) {
             header('WWW-Authenticate: Basic realm="GlobalRestFul"');
-            header('HTTP/1.0 200 OK');
+            http_set_code(200);
             return true;
         }
     }

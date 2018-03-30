@@ -12,10 +12,10 @@
   "where": {
     "require": {
       "user": "/^[a-zA-Z0-9_.-]*$/",
-      "pass": "/^[a-zA-Z0-9_.-]*$/",
-      "status": "/^[0-9]*$/"
+      "pass": "/^[a-zA-Z0-9_.-]*$/"
     },
     "optional": {
+      "status": "/^[0-9]*$/",
       "id": "/^[0-9]*$/"
     }
   },
@@ -27,10 +27,10 @@
   "customResponse": {
     "REQUEST": {
       "GET": {
-        "Fo und": {
+        "Found": {
           "status": true,
           "token": {
-            "security": "{Token}{$this->result}(TokenCreate)"
+            "security": "{POST}{$this->result}{Token}(TokenCreate)"
           }
         },
         "NotFound": {

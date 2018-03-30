@@ -26,7 +26,7 @@ ini_set('display_startup_erros', 0);
 require 'config.php';
 require 'controller/helpers/helpers.function.php';
 require 'controller/urlservices/urlservice.php';
-require 'controller/secure/security.php';
+require 'controller/security/security.php';
 require 'controller/pattern/pattern.php';
 require 'controller/DriverConnection/DriverConnection.php';
 require 'controller/CustomResponse/CustomResponse.php';
@@ -50,8 +50,9 @@ if ($secure->basicauth()) {
     $ProcessResult = new ProcessResultClass($result);
     echo $ProcessResult->json();
 } else {
+    header('Content-Type: application/json');
     header('HTTP/1.0 403 Forbidden');
-    echo 'You are forbidden!';
+    echo json_encode(['error' => 'Forbidden']);
 }
 
 $time_end = microtime(true);

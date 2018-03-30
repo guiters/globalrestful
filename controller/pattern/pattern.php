@@ -35,7 +35,7 @@ class pattern
 
             }
         } else {
-            $this->error('This route does not exist');
+            $this->error('This route does not exist', 404);
         }
     }
 
@@ -91,13 +91,18 @@ class pattern
         }
     }
 
+
     private
     function matchGET()
     {
         $get = $_GET;
         if (isset($this->pattern['REQUEST_DATA'])) {
             $get = $this->pattern['REQUEST_DATA'];
-
+            if (isset($this->pattern['where']['require'])) {
+                if (!keys_are_equal($get, $this->pattern['where']['require'],$this->pattern['where']['optional'])) {
+                    $this->error('The request is invalid');
+                }
+            }
         }
         foreach ($get as $key => $value) {
             foreach ($this->whereType as $where) {
@@ -121,7 +126,9 @@ class pattern
                 if (in_array($key, $this->pattern[$column])) {
                     $this->pattern['data'][$key] = $value;
                 } else {
+
                     $this->pattern['data'][$key] = null;
+
                 }
             }
         }
@@ -215,6 +222,7 @@ class pattern
                 $this->error('This method is not valid for this request');
             }
         }
+        //toconsole('$this->match' . $this->pattern['REQUEST'] . '();');
         eval('$this->match' . $this->pattern['REQUEST'] . '();');
     }
 
@@ -247,7 +255,7 @@ class pattern
                 eval($call['class']);
                 eval('$result = ' . $call['func']);
                 if (!$result) {
-                    $this->error('Token invalido');
+                    $this->error('Token invalido', 401);
                 }
             } else {
                 $this->error('Erro de configuração');
@@ -295,10 +303,11 @@ class pattern
     }
 
 
-    public function error($message)
+    public function error($message, $error = 400)
     {
-        header('HTTP/1.0 400 Bad Request');
-        echo $message;
+        header('Content-Type: application/json');
+        http_set_code($error);
+        echo json_encode(['error' => $message]);
         die();
     }
 }
