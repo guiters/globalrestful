@@ -30,7 +30,7 @@
         "Found": {
           "status": true,
           "token": {
-            "security": "{POST}{$this->result}{Token}(TokenCreate)"
+            "basiclogin": "{POST}{$this->result}{Token}(TokenCreate)"
           }
         },
         "NotFound": {
